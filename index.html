@@ -3103,8 +3103,10 @@ function FormController($scope) {
 	  }
 	};
 
-  $scope.addContact = function() {
-     $scope.user.contacts.push({type:'', value:''});
+  $scope.showCookies = function(cookies) {
+	$scope.selectedCookies = cookies;
+	$scope.showSelectedCookies = true;
+
   };
 
   $scope.removeContact = function(contact) {
@@ -3126,11 +3128,12 @@ function FormController($scope) {
 <div ng:app>
  <div ng-controller="FormController" class="example">
  
-<table>
+<table border="1">
 	<tr>
      <th></th>
      <th></th>
      <th colspan="3">req</th>
+     <th colspan="3">resp</th>
    </tr>
   <tr>
      <th>started</th>
@@ -3138,19 +3141,39 @@ function FormController($scope) {
      <th>cookies</th>
      <th>headers</th>
      <th>params</th>
+     <th>status</th>
+     <th>cookies</th>
+     <th>headers</th>
    </tr>
   <tr ng-repeat="entry in harp.log.entries">
-     <td>{{entry.startedDateTime}}</td>
+     <td>{{entry.startedDateTime | date:'medium'}}</td>
      <td>{{entry.time}}</td>
-     <td>{{entry.request.cookies.length}}</td>
+     <td ng-click="showCookies(entry.request.cookies)">{{entry.request.cookies.length}}</td>
      <td>{{entry.request.headers.length}}</td>
      <td>{{entry.request.queryString.length}}</td>
-
+	 <td>{{entry.response.status}}</td>
+     <td>{{entry.response.cookies.length}}</td>
+     <td>{{entry.response.headers.length}}</td>
    </tr>
 </table>
+<div ng-show="showSelectedCookies">
+	<table border="1">
+	  <tr>
+	     <th>name</th>
+	     <th>value</th>
+	   </tr>
+	  <tr ng-repeat="cookie in selectedCookies">
+	     <td>{{cookie.name}}</td>
+	     <td>{{cookie.value}}</td>
+	   </tr>
+	</table>
+	
+</div>
    <hr/>
    Debug View:
    <pre>user={{harp}}</pre>
+   <pre>showSelectedCookies = {{showSelectedCookies}}</pre>
+   <pre>selectedCookies = {{selectedCookies}}</pre>
  </div>
 </div>
   
