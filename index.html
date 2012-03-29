@@ -3117,10 +3117,20 @@ function FormController($scope) {
     }
   };
 }
+$('#basic-modal .basic').click(function (e) {
+	$('#basic-modal-content').modal();
+
+	return false;
+});
+
 //]]>  
 
 </script>
+<!-- Page styles -->
+<link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
 
+<!-- Contact Form CSS files -->
+<link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
 
 </head>
 <body>
@@ -3157,16 +3167,24 @@ function FormController($scope) {
    </tr>
 </table>
 <div ng-show="showSelectedCookies">
-	<table border="1">
-	  <tr>
-	     <th>name</th>
-	     <th>value</th>
-	   </tr>
-	  <tr ng-repeat="cookie in selectedCookies">
-	     <td>{{cookie.name}}</td>
-	     <td>{{cookie.value}}</td>
-	   </tr>
-	</table>
+	<div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;" class="simplemodal-overlay" id="simplemodal-overlay"></div>
+	<div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;" class="simplemodal-container" id="simplemodal-container">
+		<a class="modalCloseImg simplemodal-close" title="Close" ng-click="showSelectedCookies=false"></a>
+		<div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap" tabindex="-1"><div style="display: block;" class="simplemodal-data" id="basic-modal-content">
+			<table border="1">
+			  <tr>
+			     <th>name</th>
+			     <th>value</th>
+			   </tr>
+			  <tr ng-repeat="cookie in selectedCookies">
+			     <td>{{cookie.name}}</td>
+			     <td>{{cookie.value}}</td>
+			   </tr>
+			</table>
+
+			</div>
+		</div>
+	</div>
 	
 </div>
    <hr/>
