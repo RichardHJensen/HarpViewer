@@ -3156,7 +3156,7 @@ $('#basic-modal .basic').click(function (e) {
      <th>headers</th>
    </tr>
   <tr ng-repeat="entry in harp.log.entries">
-     <td>{{entry.startedDateTime | date:'medium'}}</td>
+     <td>{{entry.startedDateTime | date:'mediumTime'}}</td>
      <td>{{entry.time}}</td>
      <td ng-click="showCookies(entry.request.cookies)">{{entry.request.cookies.length}}</td>
      <td>{{entry.request.headers.length}}</td>
