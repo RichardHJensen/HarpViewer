@@ -3122,6 +3122,13 @@ function FormController($scope) {
       }
     }
   };
+
+  $scope.noCookies = function(header) {
+	//return true;
+	return header.name != "Cookie";
+  };
+
+
 }
 $('#basic-modal .basic').click(function (e) {
 	$('#basic-modal-content').modal();
@@ -3207,9 +3214,9 @@ $('#basic-modal .basic').click(function (e) {
 			     <th>name</th>
 			     <th>value</th>
 			   </tr>
-			  <tr ng-repeat="headers in selectedHeaders">
-			     <td>{{headers.name}}</td>
-			     <td>{{headers.value}}</td>
+			  <tr ng-repeat="header in selectedHeaders | filter:noCookies">
+			     <td>{{header.name}}</td>
+			     <td>{{header.value}}</td>
 			   </tr>
 			</table>
 
