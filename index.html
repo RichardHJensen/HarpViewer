@@ -4,20 +4,20 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>AngularJS Live Example - jsFiddle demo</title>
-  
+
   <script type='text/javascript' src='/js/lib/dummy.js'></script>
-  
+
   <link rel="stylesheet" type="text/css" href="/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="/css/result-light.css">
-  
+
   <style type='text/css'>
-    
+
 
   </style>
-  
 
 
-<script type='text/javascript'>//<![CDATA[ 
+
+<script type='text/javascript'>//<![CDATA[
 
 function FormController($scope) {
   $scope.harp = 	{
@@ -3109,6 +3109,12 @@ function FormController($scope) {
 
   };
 
+  $scope.showHeaders = function(headers) {
+    	$scope.selectedHeaders = headers;
+    	$scope.showSelectedHeaders = true;
+
+  };
+
   $scope.removeContact = function(contact) {
     for (var i = 0, ii = this.user.contacts.length; i < ii; i++) {
       if (contact === this.user.contacts[i]) {
@@ -3123,7 +3129,7 @@ $('#basic-modal .basic').click(function (e) {
 	return false;
 });
 
-//]]>  
+//]]>
 
 </script>
 <!-- Page styles -->
@@ -3137,7 +3143,7 @@ $('#basic-modal .basic').click(function (e) {
   <script src="http://docs-next.angularjs.org/angular-1.0.0rc2.min.js"></script>
 <div ng:app>
  <div ng-controller="FormController" class="example">
- 
+
 <table border="1">
 	<tr>
      <th></th>
@@ -3159,7 +3165,7 @@ $('#basic-modal .basic').click(function (e) {
      <td>{{entry.startedDateTime | date:'mediumTime'}}</td>
      <td>{{entry.time}}</td>
      <td ng-click="showCookies(entry.request.cookies)">{{entry.request.cookies.length}}</td>
-     <td>{{entry.request.headers.length}}</td>
+     <td ng-click="showHeaders(entry.request.headers)">{{entry.request.headers.length}}</td>
      <td>{{entry.request.queryString.length}}</td>
 	 <td>{{entry.response.status}}</td>
      <td>{{entry.response.cookies.length}}</td>
@@ -3181,20 +3187,40 @@ $('#basic-modal .basic').click(function (e) {
 			     <td>{{cookie.value}}</td>
 			   </tr>
 			</table>
+            </div>
+         </div>
+		</div>
+	</div>
+		<hr/>
+		   Debug View:
+		   <pre>user={{harp}}</pre>
+		   <pre>showSelectedCookies = {{showSelectedCookies}}</pre>
+  		   <pre>selectedCookies = {{selectedCookies}}</pre>
+
+<div ng-show="showSelectedHeaders">
+	<div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;" class="simplemodal-overlay" id="simplemodal-overlay"></div>
+		<div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;" class="simplemodal-container" id="simplemodal-container">
+			<a class="modalCloseImg simplemodal-close" title="Close" ng-click="showSelectedHeaders=false"></a>
+		<div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap" tabindex="-1"><div style="display: block;" class="simplemodal-data" id="basic-modal-content">
+			<table border="1">
+			  <tr>
+			     <th>name</th>
+			     <th>value</th>
+			   </tr>
+			  <tr ng-repeat="headers in selectedHeaders">
+			     <td>{{headers.name}}</td>
+			     <td>{{headers.value}}</td>
+			   </tr>
+			</table>
 
 			</div>
 		</div>
+
 	</div>
-	
+
 </div>
-   <hr/>
-   Debug View:
-   <pre>user={{harp}}</pre>
-   <pre>showSelectedCookies = {{showSelectedCookies}}</pre>
-   <pre>selectedCookies = {{selectedCookies}}</pre>
- </div>
-</div>
-  
+
+
 </body>
 
 
