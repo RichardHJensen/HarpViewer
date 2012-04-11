@@ -1,148 +1,172 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>AngularJS Live Example - jsFiddle demo</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>AngularJS Live Example - jsFiddle demo</title>
 
-  <script type='text/javascript' src='/js/lib/dummy.js'></script>
+    <script type='text/javascript' src='/js/lib/dummy.js'></script>
 
-  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
 
-  <style type='text/css'>
-
-
-  </style>
+    <style type='text/css'>
 
 
+    </style>
 
-<script type='text/javascript'>//<![CDATA[
 
-function FormController($scope,$resource) {
+    <script type='text/javascript'>//<![CDATA[
 
-  $scope.harp = $resource('harp.json').get();
+    function FormController($scope, $resource) {
 
-  $scope.showCookies = function(cookies) {
-	$scope.selectedCookies = cookies;
-	$scope.showSelectedCookies = true;
+        $scope.harp = $resource('harp.json').get();
 
-  };
+        $scope.showCookies = function (cookieSource, cookies) {
+            $scope.selectedCookies = cookies;
+            $scope.showSelectedCookies = true;
+            $scope.cookieSource = cookieSource;
 
-  $scope.showHeaders = function(headers) {
-    	$scope.selectedHeaders = headers;
-    	$scope.showSelectedHeaders = true;
+        };
 
-  };
+        $scope.showHeaders = function (headerSource, headers) {
+            $scope.selectedHeaders = headers;
+            $scope.showSelectedHeaders = true;
+            $scope.headerSource = headerSource;
 
-  $scope.removeContact = function(contact) {
-    for (var i = 0, ii = this.user.contacts.length; i < ii; i++) {
-      if (contact === this.user.contacts[i]) {
-        $scope.user.contacts.splice(i, 1);
-      }
+        };
+
+        $scope.closeCookieOverlay = function () {
+            $scope.selectedCookies = [];
+            $scope.showSelectedCookies = false;
+            $scope.cookieSource = '';
+        }
+
+        $scope.closeHeaderOverlay = function () {
+            $scope.selectedHeaders = [];
+            $scope.showSelectedHeaders = false;
+            $scope.headerSource = '';
+        }
+
+        $scope.noCookies = function (header) {
+            //return true;
+            return header.name != "Cookie";
+        };
     }
-  };
+    $('#basic-modal .basic').click(function (e) {
+        $('#basic-modal-content').modal();
 
-  $scope.noCookies = function(header) {
-	//return true;
-	return header.name != "Cookie";
-  };
-}
-$('#basic-modal .basic').click(function (e) {
-	$('#basic-modal-content').modal();
+        return false;
+    });
 
-	return false;
-});
+    //]]>
 
-//]]>
+    </script>
+    <!-- Page styles -->
+    <link type='text/css' href='css/demo.css' rel='stylesheet' media='screen'/>
 
-</script>
-<!-- Page styles -->
-<link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
-
-<!-- Contact Form CSS files -->
-<link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
+    <!-- Contact Form CSS files -->
+    <link type='text/css' href='css/basic.css' rel='stylesheet' media='screen'/>
 
 </head>
 <body>
-  <script src="http://docs-next.angularjs.org/angular-1.0.0rc2.min.js"></script>
+<script src="http://docs-next.angularjs.org/angular-1.0.0rc2.min.js"></script>
 <div ng:app>
- <div ng-controller="FormController" class="example">
+    <div ng-controller="FormController" class="example">
 
-<table border="1">
-	<tr>
-     <th></th>
-     <th></th>
-     <th colspan="3">req</th>
-     <th colspan="3">resp</th>
-   </tr>
-  <tr>
-     <th>started</th>
-     <th>duration</th>
-     <th>cookies</th>
-     <th>headers</th>
-     <th>params</th>
-     <th>status</th>
-     <th>cookies</th>
-     <th>headers</th>
-   </tr>
-  <tr ng-repeat="entry in harp.log.entries">
-     <td>{{entry.startedDateTime | date:'mediumTime'}}</td>
-     <td>{{entry.time}}</td>
-     <td ng-click="showCookies(entry.request.cookies)">{{entry.request.cookies.length}}</td>
-     <td ng-click="showHeaders(entry.request.headers)">{{entry.request.headers.length}}</td>
-     <td>{{entry.request.queryString.length}}</td>
-	 <td>{{entry.response.status}}</td>
-     <td>{{entry.response.cookies.length}}</td>
-     <td>{{entry.response.headers.length}}</td>
-   </tr>
-</table>
-<div ng-show="showSelectedCookies">
-	<div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;" class="simplemodal-overlay" id="simplemodal-overlay"></div>
-	<div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;" class="simplemodal-container" id="simplemodal-container">
-		<a class="modalCloseImg simplemodal-close" title="Close" ng-click="showSelectedCookies=false"></a>
-		<div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap" tabindex="-1"><div style="display: block;" class="simplemodal-data" id="basic-modal-content">
-			<table border="1">
-			  <tr>
-			     <th>name</th>
-			     <th>value</th>
-			   </tr>
-			  <tr ng-repeat="cookie in selectedCookies">
-			     <td>{{cookie.name}}</td>
-			     <td>{{cookie.value}}</td>
-			   </tr>
-			</table>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th colspan="3">req</th>
+                <th colspan="3">resp</th>
+            </tr>
+            <tr>
+                <th>started</th>
+                <th>duration</th>
+                <th>cookies</th>
+                <th>headers</th>
+                <th>params</th>
+                <th>status</th>
+                <th>cookies</th>
+                <th>headers</th>
+            </tr>
+            <tr ng-repeat="entry in harp.log.entries">
+                <td>{{entry.startedDateTime | date:'mediumTime'}}</td>
+                <td>{{entry.time}}</td>
+                <td ng-click="showCookies('Request', entry.request.cookies)">{{entry.request.cookies.length}}</td>
+                <td ng-click="showHeaders('Request', entry.request.headers)">{{entry.request.headers.length}}</td>
+                <td>{{entry.request.queryString.length}}</td>
+                <td>{{entry.response.status}}</td>
+                <td ng-click="showCookies('Response', entry.response.cookies)">{{entry.response.cookies.length}}</td>
+                <td ng-click="showHeaders('Response', entry.response.headers)">{{entry.response.headers.length}}</td>
+            </tr>
+        </table>
+        <hr/>
+        Debug View:
+        <pre>showSelectedCookies = {{showSelectedCookies}}</pre>
+        <pre>selectedCookies = {{selectedCookies}}</pre><br/>
+        <pre>showSelectedHeaders = {{showSelectedHeaders}}</pre>
+        <pre>selectedHeaders = {{selectedHeaders}}</pre>
+
+        <div ng-show="showSelectedCookies">
+            <div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;"
+                 class="simplemodal-overlay" id="cookie-overlay"></div>
+            <div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;"
+                 class="simplemodal-container" id="cookie-container">
+                <a class="modalCloseImg simplemodal-close" title="Close" ng-click="closeCookieOverlay()"></a>
+
+                <div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap"
+                     tabindex="-1">
+                    <div style="display: block;" class="simplemodal-data" id="basic-cookie-content">
+                        <table border="1">
+                            <tr>
+                                <th colspan="2">{{cookieSource}} Cookies</th>
+                            </tr>
+                            <tr>
+                                <th>name</th>
+                                <th>value</th>
+                            </tr>
+                            <tr ng-repeat="cookie in selectedCookies">
+                                <td>{{cookie.name}}</td>
+                                <td>{{cookie.value}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
-         </div>
-		</div>
-	</div>
-		<hr/>
-		   Debug View:
-		   <pre>user={{harp}}</pre>
-		   <pre>showSelectedCookies = {{showSelectedCookies}}</pre>
-  		   <pre>selectedCookies = {{selectedCookies}}</pre>
+        </div>
 
-<div ng-show="showSelectedHeaders">
-	<div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;" class="simplemodal-overlay" id="simplemodal-overlay"></div>
-		<div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;" class="simplemodal-container" id="simplemodal-container">
-			<a class="modalCloseImg simplemodal-close" title="Close" ng-click="showSelectedHeaders=false"></a>
-		<div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap" tabindex="-1"><div style="display: block;" class="simplemodal-data" id="basic-modal-content">
-			<table border="1">
-			  <tr>
-			     <th>name</th>
-			     <th>value</th>
-			   </tr>
-			  <tr ng-repeat="header in selectedHeaders | filter:noCookies">
-			     <td>{{header.name}}</td>
-			     <td>{{header.value}}</td>
-			   </tr>
-			</table>
+        <div ng-show="showSelectedHeaders">
+            <div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;"
+                 class="simplemodal-overlay" id="header-overlay"></div>
+            <div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;"
+                 class="simplemodal-container" id="header-container">
+                <a class="modalCloseImg simplemodal-close" title="Close" ng-click="closeHeaderOverlay()"></a>
 
-			</div>
-		</div>
+                <div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap"
+                     tabindex="-1">
+                    <div style="display: block;" class="simplemodal-data" id="basic-header-content">
+                        <table border="1">
+                            <tr>
+                                <th colspan="2">{{headerSource}} Headers</th>
+                            </tr>
+                            <tr>
+                                <th>name</th>
+                                <th>value</th>
+                            </tr>
+                            <tr ng-repeat="header in selectedHeaders | filter:noCookies">
+                                <td>{{header.name}}</td>
+                                <td>{{header.value}}</td>
+                            </tr>
+                        </table>
 
-	</div>
+                    </div>
+                </div>
 
+            </div>
+
+        </div>
+    </div>
 </div>
 
 
