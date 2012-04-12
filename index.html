@@ -35,6 +35,13 @@
 
         };
 
+        $scope.showParams = function (paramSource, params) {
+            $scope.selectedParams = params;
+            $scope.showSelectedParams = true;
+            $scope.paramSource = paramSource;
+
+        };
+
         $scope.closeCookieOverlay = function () {
             $scope.selectedCookies = [];
             $scope.showSelectedCookies = false;
@@ -45,6 +52,12 @@
             $scope.selectedHeaders = [];
             $scope.showSelectedHeaders = false;
             $scope.headerSource = '';
+        }
+
+        $scope.closeParamOverlay = function () {
+            $scope.selectedParams = [];
+            $scope.showSelectedParams = false;
+            $scope.paramSource = '';
         }
 
         $scope.noCookies = function (header) {
@@ -95,7 +108,7 @@
                 <td>{{entry.time}}</td>
                 <td ng-click="showCookies('Request', entry.request.cookies)">{{entry.request.cookies.length}}</td>
                 <td ng-click="showHeaders('Request', entry.request.headers)">{{entry.request.headers.length}}</td>
-                <td>{{entry.request.queryString.length}}</td>
+                <td ng-click="showParams('Request', entry.request.queryString)">{{entry.request.queryString.length}}</td>
                 <td>{{entry.response.status}}</td>
                 <td ng-click="showCookies('Response', entry.response.cookies)">{{entry.response.cookies.length}}</td>
                 <td ng-click="showHeaders('Response', entry.response.headers)">{{entry.response.headers.length}}</td>
@@ -166,6 +179,38 @@
             </div>
 
         </div>
+
+        <div ng-show="showSelectedParams">
+            <div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;"
+                 class="simplemodal-overlay" id="param-overlay"></div>
+            <div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;"
+                 class="simplemodal-container" id="param-container">
+                <a class="modalCloseImg simplemodal-close" title="Close" ng-click="closeParamOverlay()"></a>
+
+                <div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap"
+                     tabindex="-1">
+                    <div style="display: block;" class="simplemodal-data" id="basic-param-content">
+                        <table border="1">
+                            <tr>
+                                <th colspan="2">{{paramSource}} Parameters</th>
+                            </tr>
+                            <tr>
+                                <th>name</th>
+                                <th>value</th>
+                            </tr>
+                            <tr ng-repeat="param in selectedParams">
+                                <td>{{param.name}}</td>
+                                <td>{{param.value}}</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 </div>
 
