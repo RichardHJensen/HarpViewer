@@ -115,16 +115,21 @@
             </tr>
         </table>
         <hr/>
-        Debug View:
-        <pre>showSelectedCookies = {{showSelectedCookies}}</pre>
-        <pre>selectedCookies = {{selectedCookies}}</pre><br/>
-        <pre>showSelectedHeaders = {{showSelectedHeaders}}</pre>
-        <pre>selectedHeaders = {{selectedHeaders}}</pre>
 
         <div ng-show="showSelectedCookies">
-            <div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;"
+            Debug View: <pre>Cookies: {{selectedCookies}}</pre>
+        </div>
+        <div ng-show="showSelectedHeaders">
+            Debug View: <pre>Headers: {{selectedHeaders}}</pre>
+        </div>
+        <div ng-show="showSelectedParams">
+            Debug View: <pre>Params: {{selectedParams}}</pre>
+        </div>
+
+        <div ng-show="showSelectedCookies">
+            <div style="opacity: 0.5; position: fixed; left: 0px; top: 0px; z-index: 1001;"
                  class="simplemodal-overlay" id="cookie-overlay"></div>
-            <div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;"
+            <div style="position: fixed; z-index: 1002; left: 404px; top: 188.5px;"
                  class="simplemodal-container" id="cookie-container">
                 <a class="modalCloseImg simplemodal-close" title="Close" ng-click="closeCookieOverlay()"></a>
 
@@ -150,9 +155,9 @@
         </div>
 
         <div ng-show="showSelectedHeaders">
-            <div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;"
+            <div style="opacity: 0.5; position: fixed; left: 0px; top: 0px; z-index: 1011;"
                  class="simplemodal-overlay" id="header-overlay"></div>
-            <div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;"
+            <div style="position: fixed; z-index: 1012; left: 404px; top: 188.5px;"
                  class="simplemodal-container" id="header-container">
                 <a class="modalCloseImg simplemodal-close" title="Close" ng-click="closeHeaderOverlay()"></a>
 
@@ -181,9 +186,9 @@
         </div>
 
         <div ng-show="showSelectedParams">
-            <div style="opacity: 0.5; height: 769px; width: 1440px; position: fixed; left: 0px; top: 0px; z-index: 1001;"
+            <div style="opacity: 0.5; position: fixed; left: 0px; top: 0px; z-index: 1021;"
                  class="simplemodal-overlay" id="param-overlay"></div>
-            <div style="position: fixed; z-index: 1002; height: 360px; width: 600px; left: 404px; top: 188.5px;"
+            <div style="position: fixed; z-index: 1022; left: 404px; top: 188.5px;"
                  class="simplemodal-container" id="param-container">
                 <a class="modalCloseImg simplemodal-close" title="Close" ng-click="closeParamOverlay()"></a>
 
