@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="actionmailer (v2.3.5, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/actionmailer-2.3.5/lib" />
+  </library>
+  <library name="actionmailer (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/actionmailer-3.1.0/lib" />
+  </library>
+  <library name="actionpack (v2.3.5, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/actionpack-2.3.5/lib" />
+  </library>
+  <library name="actionpack (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib" />
+  </library>
+  <library name="activemodel (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/activemodel-3.1.0/lib" />
+  </library>
+  <library name="activerecord (v2.3.5, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/activerecord-2.3.5/lib" />
+  </library>
+  <library name="activerecord (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib" />
+  </library>
+  <library name="activeresource (v2.3.5, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/activeresource-2.3.5/lib" />
+  </library>
+  <library name="activeresource (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/activeresource-3.1.0/lib" />
+  </library>
+  <library name="activesupport (v2.3.5, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/activesupport-2.3.5/lib" />
+  </library>
+  <library name="activesupport (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib" />
+  </library>
+  <library name="angular-1.0.0rc4" />
+  <library name="angular-mocks-1.0.0rc4" />
+  <library name="angular-scenario-1.0.0rc4" />
+  <library name="arel (v2.2.1, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/arel-2.2.1/lib" />
+  </library>
+  <library name="bcrypt-ruby (v3.0.1, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/bcrypt-ruby-3.0.1/ext" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/bcrypt-ruby-3.0.1/lib" />
+  </library>
+  <library name="builder (v3.0.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/builder-3.0.0/lib" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.8.7-p357 [global] (1)) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.8.7-p357 [global]) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.8.7-p357 [rails_2_3_5] (1)) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.8.7-p357 [rails_2_3_5]) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.9.2-p290 [global] (1)) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.9.2-p290 [global]) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.9.2-p290 [rails_3_1] (1)) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.9.2-p290 [rails_3_1]) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290@global/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.21, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/bundler-1.0.21/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/bundler-1.0.21/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/bundler-1.0.21/man" />
+  </library>
+  <library name="bundler (v1.0.22, RVM: ruby-1.9.3-p0 [global] (1)) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0@global/gems/bundler-1.0.22/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0@global/gems/bundler-1.0.22/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0@global/gems/bundler-1.0.22/man" />
+  </library>
+  <library name="bundler (v1.0.22, RVM: ruby-1.9.3-p0 [global]) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0@global/gems/bundler-1.0.22/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0@global/gems/bundler-1.0.22/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0@global/gems/bundler-1.0.22/man" />
+  </library>
+  <library name="bundler (v1.0.22, RVM: ruby-1.9.3-p0) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0/gems/bundler-1.0.22/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0/gems/bundler-1.0.22/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0/gems/bundler-1.0.22/man" />
+  </library>
+  <library name="erubis (v2.7.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/erubis-2.7.0/benchmark" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/erubis-2.7.0/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/erubis-2.7.0/contrib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/erubis-2.7.0/doc-api" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/erubis-2.7.0/lib" />
+  </library>
+  <library name="groovy-1.8.1">
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/ant-1.8.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/ant-antlr-1.8.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/ant-junit-1.8.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/ant-launcher-1.8.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/antlr-2.7.7.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/asm-3.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/asm-analysis-3.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/asm-commons-3.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/asm-tree-3.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/asm-util-3.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/bsf-2.4.0.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/commons-cli-1.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/commons-logging-1.1.1.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/gpars-0.11.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/groovy-1.8.1.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/ivy-2.2.0.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/jansi-1.6.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/jline-0.9.94.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/jsp-api-2.0.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/jsr166y-070108.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/junit-4.8.2.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/servlet-api-2.4.jar" />
+    <archive path="/usr/local/Cellar/groovy/1.8.1/libexec/lib/xstream-1.3.1.jar" />
+  </library>
+  <library name="hike (v1.2.1, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/hike-1.2.1/lib" />
+  </library>
+  <library name="i18n (v0.6.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/i18n-0.6.0/ci" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/i18n-0.6.0/lib" />
+  </library>
+  <library name="json (v1.6.4, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/benchmarks" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/data" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/diagrams" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/ext" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/java" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/tests" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/json-1.6.4/tools" />
+  </library>
+  <library name="linecache (v0.46, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/linecache-0.46/ext" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/linecache-0.46/lib" />
+  </library>
+  <library name="mail (v2.3.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/mail-2.3.0/lib" />
+  </library>
+  <library name="mime-types (v1.17.2, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/mime-types-1.17.2/lib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/mime-types-1.17.2/type-lists" />
+  </library>
+  <library name="multi_json (v1.0.4, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/multi_json-1.0.4/lib" />
+  </library>
+  <library name="polyglot (v0.3.3, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/polyglot-0.3.3/lib" />
+  </library>
+  <library name="rack (v1.0.1, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rack-1.0.1/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rack-1.0.1/contrib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rack-1.0.1/example" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rack-1.0.1/lib" />
+  </library>
+  <library name="rack (v1.3.6, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/contrib" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/example" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib" />
+  </library>
+  <library name="rack-cache (v1.0.3, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-cache-1.0.3/example" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-cache-1.0.3/lib" />
+  </library>
+  <library name="rack-mount (v0.8.3, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.8.3/lib" />
+  </library>
+  <library name="rack-ssl (v1.3.2, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-ssl-1.3.2/lib" />
+  </library>
+  <library name="rack-test (v0.6.1, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rack-test-0.6.1/lib" />
+  </library>
+  <library name="rails (v2.3.5, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/builtin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/configs" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/dispatches" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/environments" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/guides" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/helpers" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/html" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rails-2.3.5/lib" />
+  </library>
+  <library name="rails (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rails-3.1.0/bin" />
+  </library>
+  <library name="railties (v3.1.0, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/guides" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib" />
+  </library>
+  <library name="rake (v0.9.2, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rake-0.9.2/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rake-0.9.2/lib" />
+  </library>
+  <library name="rake (v0.9.2, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rake-0.9.2/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rake-0.9.2/lib" />
+  </library>
+  <library name="rake (v0.9.2, RVM: ruby-1.9.3-p0) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/lib" />
+  </library>
+  <library name="rbx-require-relative (v0.0.5, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/rbx-require-relative-0.0.5/lib" />
+  </library>
+  <library name="rdoc (v3.12, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rdoc-3.12/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/rdoc-3.12/lib" />
+  </library>
+  <library name="ruby-debug-base (v0.10.5.jb2, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/ruby-debug-base-0.10.5.jb2/ext" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/ruby-debug-base-0.10.5.jb2/lib" />
+  </library>
+  <library name="ruby-debug-ide (v0.4.17.beta8, RVM: ruby-1.8.7-p357) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/ruby-debug-ide-0.4.17.beta8/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/ruby-debug-ide-0.4.17.beta8/ext" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p357/gems/ruby-debug-ide-0.4.17.beta8/lib" />
+  </library>
+  <library name="sprockets (v2.0.3, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/sprockets-2.0.3/lib" />
+  </library>
+  <library name="thor (v0.14.6, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/thor-0.14.6/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/thor-0.14.6/lib" />
+  </library>
+  <library name="tilt (v1.3.3, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/tilt-1.3.3/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/tilt-1.3.3/lib" />
+  </library>
+  <library name="treetop (v1.4.10, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/treetop-1.4.10/bin" />
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/treetop-1.4.10/lib" />
+  </library>
+  <library name="tzinfo (v0.3.31, RVM: ruby-1.9.2-p290) [gem]">
+    <archive path="/Users/Thoughtworks/.rvm/gems/ruby-1.9.2-p290/gems/tzinfo-0.3.31/lib" />
+  </library>
+</eclipse-userlibraries>
+

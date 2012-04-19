@@ -1,0 +1,3051 @@
+{
+  "log": {
+    "version": "1.1",
+    "creator": {
+      "name": "Firebug",
+      "version": "1.9"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "11.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2012-04-18T19:05:53.764-05:00",
+        "id": "page_58871",
+        "title": "The Pragmatic Bookshelf | Practical Vim",
+        "pageTimings": {
+          "onContentLoad": 1467,
+          "onLoad": 2719
+        }
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:53.764-05:00",
+        "time": 1393,
+        "request": {
+          "method": "GET",
+          "url": "http://pragprog.com/book/dnvim/practical-vim",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Host",
+              "value": "pragprog.com"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/search"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 621,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88",
+              "domain": ".pragprog.com",
+              "path": "/",
+              "httpOnly": true
+            }
+          ],
+          "headers": [
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10 + Phusion Passenger 3.0.11 (mod_rails/mod_rack)"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88; domain=.pragprog.com; path=/; HttpOnly"
+            },
+            {
+              "name": "Status",
+              "value": "200"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Phusion Passenger (mod_rails/mod_rack) 3.0.11"
+            },
+            {
+              "name": "X-Runtime",
+              "value": "1.077822"
+            },
+            {
+              "name": "X-UA-Compatible",
+              "value": "IE=Edge,chrome=1"
+            },
+            {
+              "name": "X-XRDS-Location",
+              "value": "http://pragprog.com/pragprog.xrds"
+            },
+            {
+              "name": "X-app-info",
+              "value": "master@5f6ae60849191254f1022a77db4bb8e123820748@13@120418152912"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html",
+            "size": 19631,
+            "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\"\n  \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" version=\"-//W3C//DTD XHTML 1.1//EN\" xml:lang=\"en\">\n  <head><script type=\"text/javascript\">var NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n    \n\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<title>The Pragmatic Bookshelf | Practical Vim</title>  \n<meta name=\"copyright\" content=\"Copyright (c) 1999-2012 The Pragmatic Programmers, LLC. All rights reserved.\" />\n<meta name=\"description\" content=\"title: Practical Vim: Edit Text at the Speed of Thought, by: Drew Neil, isbn: 9781934356982, date: 2012-11-15\" />\n<meta name=\"keywords\" content=\"vi, vim, emacs, textmate, editor, ide\" /> \n\n<meta content=\"authenticity_token\" name=\"csrf-param\" />\n<meta content=\"IFYkTf96HCWzeS3gPOZu4p2IfHPvE7TwsmdkHJXQyyw=\" name=\"csrf-token\" />\n\n\n<link rel=\"shortcut icon\" href=\"/favicon.ico\" />\n<link href=\"http://assets1.pragprog.com/stylesheets/low.css?1334788122\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<link href=\"http://assets3.pragprog.com/stylesheets/print.css?1334788122\" media=\"print\" rel=\"stylesheet\" type=\"text/css\" />\n<link href=\"http://assets3.pragprog.com/stylesheets/screen.css?1334788122\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<link href=\"http://assets3.pragprog.com/stylesheets/modalbox.css?1334788122\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<!--[if lte IE 7]><link href=\"http://assets3.pragprog.com/stylesheets/ie.css?1334788122\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" /><![endif]-->\n<!--[if IE 6]><link href=\"http://assets0.pragprog.com/stylesheets/ie6.css?1334788122\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" /><![endif]-->\n<link href=\"http://assets3.pragprog.com/stylesheets/modalbox.css?1334788122\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<script src=\"http://assets3.pragprog.com/javascripts/store.js?1334788122\" type=\"text/javascript\"></script><script src=\"http://assets1.pragprog.com/javascripts/raphael-min.js?1334788122\" type=\"text/javascript\"></script>\n<script src=\"http://assets2.pragprog.com/javascripts/title-progress.js?1334788122\" type=\"text/javascript\"></script>\n<link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"http://pragprog.com/catalog/search-description\" title=\"Content search\" />\n<link rel=\"canonical\" href=\"http://pragprog.com/book/dnvim/practical-vim\" />\n<link href=\"http://pragprog.com/feed/global\" rel=\"alternate\" title=\"RSS\" type=\"application/rss+xml\" />\n\n    <script type=\"text/javascript\">\n\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-280358-4']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n  </head>\n  <body id=\"two-column-layout\" class=\"book-page\" itemscope itemtype=\"http://schema.org/WebPage\">\n    <div id=\"page-wrapper\">\n      <div id=\"page\"> \n        \n\n<div id=\"header-wrapper\">\n  <div id=\"header\">\n    <div id=\"logo\">\n      <a href=\"http://pragprog.com/\" title=\"Home\"><img alt=\"The Pragmatic Programmers\" src=\"http://assets3.pragprog.com/images/logo.gif?1334788122\" title=\"\" /></a>\n    </div>\n    <div id=\"navigation\">\n      <p>\n        <strong><a href=\"http://pragprog.com/titles\" class=\"here\" title=\"Pragmatic topics to make developer's lives easier\">Books</a></strong><span class=\"separator\"> | </span><a href=\"http://pragprog.com/screencasts\" title=\"Experts show you how it's done\">Video</a><span class=\"separator\"> | </span><a href=\"http://pragprog.com/podcasts\" title=\"Listen to our podcasts\">Audio</a><span class=\"separator\"> | </span><a href=\"http://pragprog.com/magazines\" title=\"Read our free monthly magazine\">Magazine</a><span class=\"separator\"> | </span><a href=\"http://forums.pragprog.com\" title=\"Where folks talk about books, screencasts, and other good stuff\">Forums</a><span class=\"separator\"> | </span><a href=\"http://pragprog.com/resources\" title=\"Help finding stuff on the site\">Resources</a><span class=\"separator\"> | </span><a href=\"http://pragprog.com/frequently-asked-questions\" title=\"Got a problem? Let us help.\">Help!</a>\n      </p>\n      <p class=\"login\">\n        <span id=\"login\"><a href=\"http://pragprog.com/login\" class=\"login-button\"><img alt=\"Login\" height=\"27\" src=\"http://assets0.pragprog.com/images/login-button.gif?1334788122\" title=\"\" width=\"72\" /></a></span>\n      </p>\n    </div>\n  </div>\n</div>\n\n        <hr class=\"hidden\" />\n        <div id=\"main\">\n          <div id=\"content-wrapper\">\n            <div id=\"content\" itemscope itemtype=\"http://schema.org/Book\">\n                <div id=\"head-wrapper\">\n                  <div id=\"head\">\n                    \n  <h1 itemprop=\"name\">Practical Vim: Edit Text at the Speed of Thought</h1>\n  <h2>by <span itemprop=\"author\">Drew Neil</span></h2>\n\n                  </div>\n                </div>\n              <script type=\"text/javascript\">\n\tEvent.observe(window, 'load', setIntroHeight)\n\tEvent.observe(window, 'resize', setIntroHeight)\n</script>\n  \n\n<div id=\"book-detail\">\n  <div class=\"thumbnail\">\n    <a href=\"http://imagery.pragprog.com/products/241/dnvim.jpg?1334333219\"><img alt=\"Cover Image For Practical Vim...\" height=\"228\" itemprop=\"image\" src=\"http://imagery.pragprog.com/products/241/dnvim_xlargebeta.jpg?1334333219\" width=\"190\" /></a>\n  </div>\n  <div class=\"details\">\n    <div class=\"extras\"> \n      <a href=\"http://pragprog.com/titles/dnvim/source_code\">Code</a><span class=\"separator\"> &bull; </span><a href=\"http://pragprog.com/titles/dnvim/errata\">Errata</a><span class=\"separator\"> &bull; </span><a href=\"http://forums.pragprog.com/forums/192\">Discussions</a>\n    </div>\n    <!-- AddThis Button BEGIN -->\n    <!--\n    <div class=\"addthis_toolbox addthis_default_style \">\n    <a class=\"addthis_button_facebook_like\" fb:like:layout=\"button_count\"></a>\n    <a class=\"addthis_button_tweet\"></a>\n    </div>\n    <script type=\"text/javascript\" src=\"http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d2d1d7222044f47\"></script>\n    -->\n    <!-- AddThis Button END -->\n\n    \n    <div class=\"stats\"> \n        <span itemprop=\"numberOfPages\">300</span> pages (est),\n        <time itemprop=\"datePublished\">2012-11-15</time><br /> \n      ISBN: <span itemprop=\"isbn\">978-1-93435-698-2</span>\n        <div class=\"track-our-progress\">\n          <a href=\"#\" onclick=\"Modalbox.show(&quot;/titles/progress/dnvim&quot;, \n                                  {title: &quot;Progress on Practical Vim&quot;, width: 700}); return false;\">Progress</a>\n           •\n           <a href=\"/titles/dnvim/release_info\" data-remote=\"true\" id=\"release_info\">Releases</a>\n        </div>\n\n    </div>\n  </div>\n</div>\n<script>\n</script>\n\n\n         \n\n<div id=\"intro\">\n  <a href=\"http://www.youtube.com/watch?v=3IItdY1_LLs\" onClick=\"\n                 var html = '&lt;iframe width=\\'640\\' height=\\'480\\' src=\\'http://www.youtube.com/embed/3IItdY1_LLs?rel=0&amp;autoplay=1\\' frameborder=\\'0\\' allowfullscreen&gt;&lt;/iframe&gt;';\n                 Modalbox.show(html, { title: 'Practical Vim', width: 660});\n                 return false;\n            \"><img alt=\"Watch_me\" class=\"watch-me-icon\" src=\"http://assets1.pragprog.com/images/watch_me.png?1334788122\" /></a>\n  <div itemprop=\"description\">\n    <p>Vim is a fast and efficient text editor that will make you a faster and more efficient developer. It&#8217;s available on almost every OS&#8212;if you master the techniques in this book, you&#8217;ll never need another text editor. In 120 Vim recipes, you’ll quickly learn the editor’s core functionality and tackle your trickiest editing and writing tasks.</p>\n  </div>\n\n  \n</div>\n\n\n\n<div class=\"box rounded\">\n  \n  \n  \n  \n    <h3 style=\"\">Buy Now</h3>\n    <form accept-charset=\"UTF-8\" action=\"/cart/add_to_cart\" id=\"buy-now\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\" type=\"hidden\" value=\"IFYkTf96HCWzeS3gPOZu4p2IfHPvE7TwsmdkHJXQyyw=\" /></div>\n\t<table>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<label class=\"required\">Select a Format:</label>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td class=\"buy-now-format\">\n\t\t\t    <div class=\"book-format-option\" itemprop=\"offers\" itemscope itemtype=\"http://schema.org/Offer\">\n  \t\t\t    <input checked=\"checked\" id=\"sku_id_406_405\" name=\"sku_id\" type=\"radio\" value=\"406_405\" />\n  \t\t\t    <label for=\"sku_id_406_405\">\n  \t\t\t      <span itemProp=\"bookFormat\">Beta eBook + Paper Book</span>\n  \t\t\t     (<span itemprop=\"price\">$38.00</span>)\n  \t\t\t    </label>\n  \t\t\t    <!-- <link itemprop=\"availability\" href=\"http://schema.org/InStock\">In Stock</link> -->\n  \t\t\t  </div>\n\t\t\t    <div class=\"book-format-option\" itemprop=\"offers\" itemscope itemtype=\"http://schema.org/Offer\">\n  \t\t\t    <input id=\"sku_id_406\" name=\"sku_id\" type=\"radio\" value=\"406\" />\n  \t\t\t    <label for=\"sku_id_406\">\n  \t\t\t      <span itemProp=\"bookFormat\">Beta eBook</span>\n  \t\t\t     (<span itemprop=\"price\">$20.00</span>)\n  \t\t\t    </label>\n  \t\t\t    <!-- <link itemprop=\"availability\" href=\"http://schema.org/InStock\">In Stock</link> -->\n  \t\t\t  </div>\n   \t\t\t\t\n\n\t     \t<div class=\"buy-now-buttons\">\n          <button class=\"add-to-cart\" id=\"add-to-cart\" name=\"add-to-cart\" type=\"submit\"><span>Add to Cart</span></button>    \n\t\t\t\t</div>   \n\t\t\t</td>\n\t\t\t<td class=\"formats\">\n\t\t\t\t\tBuy the eBook and get these DRM-free formats:\n\t<ul>\n\t\t\t<li>epub (for iPhone/iPad, Android, eReaders)</li>\n\t\t\t<li>mobi (for Kindle)</li>\n\t\t\t<li>PDF</li>\n\t</ul>\n    We can automatically deliver them to your <a href=\"/frequently-asked-questions/ebooks/read-on-kindle#wifi\">Kindle</a> or <a href=\"/frequently-asked-questions/ebooks/sending-ebooks-to-your-dropbox\">Dropbox</a>, if you want (but you'll need to <a href=\"/login\">log in</a>).\n\n\n\t\t\t</td>\n\t\t</tr>\n\t</table>\n</form>  \n\n  \n      <p class=\"additional-sales-info\">\n        This title is currently <strong>available in Beta</strong>.  \n        Buy the eBook now, and you'll be able to download successive \n        releases of the eBook as the authors add material and correct mistakes. \n        You'll get the final eBook when the book is finished.\n      </p>\n      <p class=\"additional-sales-info\">\n        If you buy the combo pack (Beta eBook + finished Paper Book) now, you'll get\n        the Beta eBook immediately. You'll get the finished paper book when it's released\n        (we're currently estimating\n        (no scheduled date), but these dates can change).\n      </p>\n  \n    \n  \n  <span class=\"clear\">&nbsp;</span>\n  \n</div>\n\n\n\n<h3>About this Book</h3>\n<p>Vim, like its classic ancestor vi, is a serious tool for programmers, web developers, and sysadmins.  No other text editor comes close to Vim for speed and efficiency; it runs on almost every system imaginable and supports most coding and markup languages.</p>\n\n\n\t<p>Learn how to edit text the &#8220;Vim way&#8221;: complete a series of repetitive changes with The Dot Formula, using one keystroke to strike the target, followed by one keystroke to execute the change. Automate complex tasks by recording your keystrokes as a macro. Run the same command on a selection of lines, or a set of files.</p>\n\n\n\t<p>Discover the &#8220;very magic&#8221; switch, which makes Vim&#8217;s regular expression syntax more like Perl&#8217;s. Build complex patterns by iterating on your search history. Search inside multiple files, then run Vim&#8217;s substitute command on the result set for a project-wide search and replace. All without installing a single plugin!</p>\n\n\n\t<p>You&#8217;ll learn how to navigate text documents as fast as the eye moves&#8212;with only a few keystrokes. Jump from a method call to its definition with a single command. Use Vim&#8217;s jumplist, so that you can always follow the breadcrumb trail back to the file you were working on before. Discover a multilingual spell-checker that does what it&#8217;s told.</p>\n\n\n\t<p><em>Practical Vim</em> will show you new ways to work with Vim more efficiently, whether you&#8217;re a beginner or an intermediate Vim user.</p>\n\n\n\t<p>All this, without having to touch the mouse.</p>\n\n\n\t<p><strong>What You Need:</strong></p>\n\n\n\t<p>Vim version 7</p>\n\n<h3>Contents and Extracts</h3>  \n<p> \n  This book is currently in beta, so the contents and extracts will change\n  as the book is developed.\n</p>\n<p><a href=\"http://media.pragprog.com/titles/dnvim/toc.pdf\">Full Table of Contents</a></p>\n\n\n\t<p><a href=\"http://media.pragprog.com/titles/dnvim/foreword.pdf\">Foreword</a></p>\n\n\n\t<p><a href=\"http://media.pragprog.com/titles/dnvim/introduction.pdf\">Introduction</a></p>\n\n\n\t<ul>\n\t<li><strong>The Vim Way</strong>  <a href=\"http://media.pragprog.com/titles/dnvim/vim.pdf\">excerpt</a></li>\n\t\t<li><strong>Modes</strong>\n\t<ul>\n\t<li>Normal mode</li>\n\t\t<li>Insert Mode</li>\n\t\t<li>Visual mode</li>\n\t\t<li>Command-line mode</li>\n\t</ul>\n\t</li>\n\t\t<li><strong>Files</strong>\n\t<ul>\n\t<li>Manage multiple files</li>\n\t\t<li>Open files and save them to disk</li>\n\t</ul>\n\t</li>\n\t\t<li><strong>Get around faster</strong>\n\t<ul>\n\t<li>Navigate inside files with motions</li>\n\t\t<li>Navigate between files with jumps</li>\n\t</ul>\n\t</li>\n\t\t<li><strong>Registers</strong>\n\t<ul>\n\t<li>Copy and paste</li>\n\t\t<li>Macros  <a href=\"http://media.pragprog.com/titles/dnvim/macros.pdf\">excerpt</a></li>\n\t</ul>\n\t</li>\n\t\t<li><strong>Patterns</strong>\n\t<ul>\n\t<li>Matching patterns and literals</li>\n\t\t<li>Search  <a href=\"http://media.pragprog.com/titles/dnvim/search.pdf\">excerpt</a></li>\n\t\t<li>Substitution</li>\n\t\t<li>Global commands</li>\n\t</ul>\n\t</li>\n\t\t<li><strong>Tools</strong>\n\t<ul>\n\t<li>Index and navigate source code with ctags</li>\n\t\t<li>Compile code and navigate errors with the quickfix list</li>\n\t\t<li>Search projectwide with grep, vimgrep, and others</li>\n\t\t<li>Dial ‘X’ for auto-completion</li>\n\t\t<li>Find and fix typos with Vim&#8217;s spell checker</li>\n\t</ul></li>\n\t</ul>\n\n<a name=\"author_bio\"></a>\n<h3>About the Author</h3>\n<p><strong>Drew Neil</strong> is an independent programmer, writer, and trainer. He runs workshops around the world, speaks regularly at conferences, and specializes in making educational screencasts. At vimcasts.org, he publishes articles and video tutorials about Vim.</p> \n\n            </div>\n          </div>\n            <hr class=\"hidden\" />\n            <div id=\"sidebar-wrapper\">\n              <div id=\"sidebar\">\n                \n\n\n    <h3 id=\"in-the-forums\">In the Forums…</h3>\n    <ul class=\"menu\">\n      <li><a href=\"http://forums.pragprog.com/forums/192/topics/9231\">Time line?</a>\n  </ul>\n\n\n<form accept-charset=\"UTF-8\" action=\"/search\" id=\"search\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\" type=\"hidden\" value=\"IFYkTf96HCWzeS3gPOZu4p2IfHPvE7TwsmdkHJXQyyw=\" /></div>  <h3>Search</h3>      \n  <div>\n    <input class=\"textbox narrow\" id=\"q\" name=\"q\" type=\"text\" />\n    <button class=\"go\" type=\"submit\"><span>Go</span></button>    \n  </div>\n</form>\n\n<ul class=\"menu\">\n  <li><a href=\"http://pragprog.com/categories/all\">All Titles</a></li>\n  <li><a href=\"http://pragprog.com/categories/new\">New Releases</a></li>\n  <li><a href=\"http://pragprog.com/categories/upcoming\">Upcoming Titles</a></li>\n  <li><a href=\"http://pragprog.com/screencasts\">Screencasts</a></li>\n</ul>\n\n\n<h3>Related Titles</h3>\n<table id=\"related-books\" class=\"book-list\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n  <tr>\n    <td class=\"thumbnail\">\n      <a href=\"http://pragprog.com/book/bhtmux/tmux\"><img alt=\"Cover Image For tmux...\" height=\"48\" src=\"http://imagery.pragprog.com/products/291/bhtmux_smallcover.jpg?1330443523\" width=\"40\" /></a>\n    </td>\n    <td class=\"description\">\n      <a href=\"http://pragprog.com/book/bhtmux/tmux\">tmux</a>\n        <small class=\"authors\">Brian P. Hogan</small>      \n    </td>\n  </tr>\n</table>\n<script src=\"/javascripts/ruledtable.js\" type=\"text/javascript\"></script>\n<script type=\"text/javascript\">\n  // <![CDATA[\n  new RuledTable('related-books', { autoClick: true });\n  // ]]>\n</script>\n\n<h3>Categories</h3>\n<ul class=\"menu\">\n  <li><a href=\"http://pragprog.com/categories\">All Categories</a></li>\n    <li><a href=\"http://pragprog.com/categories/practices\">Agile Practices</a></li>\n    <li><a href=\"http://pragprog.com/categories/mobile_prog\">Android, iPhone, and Mobile Programming</a></li>\n    <li><a href=\"http://pragprog.com/categories/other_anth\">Anthologies and Collections</a></li>\n    <li><a href=\"http://pragprog.com/categories/career\">Career Development</a></li>\n    <li><a href=\"http://pragprog.com/categories/intro_prog\">For Beginners</a></li>\n    <li><a href=\"http://pragprog.com/categories/java_vm\">Java and JVM Languages</a></li>\n    <li><a href=\"http://pragprog.com/categories/mac\">Mac, iPhone, and iPad Programming</a></li>\n    <li><a href=\"http://pragprog.com/categories/microsoft\">Microsoft .NET</a></li>\n    <li><a href=\"http://pragprog.com/categories/ruby_and_rails\">Ruby and Rails</a></li>\n    <li><a href=\"http://pragprog.com/categories/design\">Testing, Design, and Cloud Computing</a></li>\n    <li><a href=\"http://pragprog.com/categories/tools\">Tools, Frameworks, Languages</a></li>\n    <li><a href=\"http://pragprog.com/categories/web20\">Web 2.0+</a></li>\n</ul>\n\n\n\n\n              </div>\n            </div>\n        </div>\n        <hr class=\"hidden\" />\n        <div id=\"footer-wrapper\">\n          <div id=\"footer\">\n            <div id=\"site-links\">\n  <p>\n    <a href=\"http://pragprog.com/\">Home</a>\n    <span class=\"separator\"> | </span>\n    <a href=\"http://pragprog.com/about\">About Us</a>\n    <span class=\"separator\"> | </span>\n    <a href=\"http://pragprog.com/community\">Connect!</a>\n    <span class=\"separator\"> | </span>\n    <a href=\"http://pragprog.com/write-for-us\">Write For Us</a>\n    <span class=\"separator\"> | </span>\n    <a href=\"http://pragprog.com/privacy\">Privacy Policy</a>        \n    <span class=\"separator\"> | </span>\n    <a href=\"http://pragprog.com/terms-of-use\">Terms of Use</a>\n    <span class=\"separator\"> | </span>\n    <a href=\"http://pragprog.com/resources/credits\">Credits</a>\n    <span class=\"separator\"> | </span>\n    <a href=\"http://pragprog.com/contact\">Contact Us</a>\n  </p>\n</div>\n<div id=\"copyright\">\n  <p>\n    The <em>Pragmatic Bookshelf&trade;</em> is an imprint of\n\t<a href=\"http://pragprog.com/\">The Pragmatic Programmers, LLC</a>.\n    <br />\n    Copyright &copy; 1999&#8211;2012 The Pragmatic Programmers, LLC. \n    All Rights Reserved.\n  </p>\n</div>\n<script type=\"text/javascript\">\nsetTimeout(function(){var a=document.createElement(\"script\");\nvar b=document.getElementsByTagName('script')[0];\na.src=document.location.protocol+\"//dnn506yrbagrg.cloudfront.net/pages/scripts/0012/0715.js?\"+Math.floor(new Date().getTime()/3600000);\na.async=true;a.type=\"text/javascript\";b.parentNode.insertBefore(a,b)}, 1);\n</script>\n\n          </div>\n        </div>\n      </div>\n    </div>\n  <script type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/30/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"4460760967\",340824,\"cQ5YEkJeCFpTQEsSWkYNUxUfQgxZQQ==\",0,1075,new Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+          },
+          "redirectURL": "",
+          "headersSize": 739,
+          "bodySize": 7170
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 60,
+          "send": 0,
+          "wait": 1210,
+          "receive": 123
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.154-05:00",
+        "time": 119,
+        "request": {
+          "method": "GET",
+          "url": "http://assets1.pragprog.com/stylesheets/low.css?1334788122",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets1.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334788122",
+              "value": ""
+            }
+          ],
+          "headersSize": 658,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:33 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/css",
+            "size": 862,
+            "text": "/*\n  low.css - styles for ancient browsers (applied to all browsers)\n  Copyright (c) 2007 The Pragmatic Programmers \n*/\na {\n  color: #0050b4;\n}\na:visited {\n  color: #9456d1;\n}\na:hover, a:visited:hover {\n  color: #d65554;\n  text-decoration: none;\n}\na img { border: 0; }\nbody {\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n  font-size: 80%;\n  color: black;\n  background: white;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-weight: normal;\n}\nh1 {\n  font-size: 260%;\n}\nh2 {\n  font-size: 160%;\n  margin-top: -1em;\n}\nh3 {\n  font-size: 140%;\n}\nh4 {\n  font-size: 140%;\n}\np {\n  line-height: 1.3em;\n}\nli {\n  line-height: 1.3em;\n  margin-bottom: .4em;\n}\nform {\n  padding: 0;\n  margin: 0;\n}\n.hidden {\n  display: none;\n}\n\n#logo img {\n  border: 0;\n}\n#footer {\n  color: #666;\n}\n"
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 487
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:33.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 8
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 59,
+          "send": 0,
+          "wait": 60,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.154-05:00",
+        "time": 122,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/stylesheets/print.css?1334788122",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334788122",
+              "value": ""
+            }
+          ],
+          "headersSize": 660,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:33 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/css",
+            "size": 796,
+            "text": "/*\n  low.css - styles for printing\n  Copyright (c) 2007 The Pragmatic Programmers\n*/\n\n@import \"/stylesheets/shared.css\";\n\n.hidden-print, #navigation, #sidebar {\n  display: none;\n}\n\n\n    table.wish-list {\n      page-break-inside: avoid;\n      font-family: \"Trebuchet MS\", Arial, Helvitica, sans-serif;\n    }\n    \n  /* Wish list */\n  table.wish-list tr {\n      vertical-align: top;\n      padding-top: 10px;\n      padding-bottom: 10px;\n\n  }\n\n  table.wish-list td.underline {\n      border-bottom: solid 1px #ccc;\n }\n\n  table.wish-list .option {\n     font-size: 70%;\n     padding-right: 0.25in;\n  }\n\n  table.wish-list span.title {\n      font-size: 85%;\n      font-weight: bold;\n      color: #444;\n      display: block;\n  }\n\n  table.wish-list span.code {\n      font-size: 72%;\n      color: #888;\n  }\n\n\n"
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 434
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:33.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 8
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 60,
+          "send": 0,
+          "wait": 62,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.154-05:00",
+        "time": 122,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/stylesheets/screen.css?1334788122",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334788122",
+              "value": ""
+            }
+          ],
+          "headersSize": 661,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:33 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/css",
+            "size": 202,
+            "text": "/*\n  screen.css - screen styles for screen\n  Copyright (c) 2007 The Pragmatic Programmers   \n*/\n\n@import \"/stylesheets/shared.css\";\n@import \"/stylesheets/high.css\";\n\n.hidden-screen {\n  display: none;\n}\n"
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 161
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:33.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 8
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 1,
+          "connect": 60,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.154-05:00",
+        "time": 122,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/stylesheets/modalbox.css?1334788122",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334788122",
+              "value": ""
+            }
+          ],
+          "headersSize": 663,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:33 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/css",
+            "size": 2176,
+            "text": "/*\r\n   modalbox.css\r\n   \r\n   Modalbox project\r\n   \r\n   Created by Andrew Okonetchnikov.\r\n   Copyright 2006-2010 okonet.ru. All rights reserved.\r\n   \r\n   Licensed under MIT license.\r\n*/\r\n\r\n#MB_overlay {\r\n\tposition: absolute;\r\n\tmargin: auto;\r\n\ttop: 0;\tleft: 0;\r\n\twidth: 100%; height: 100%;\r\n\tz-index: 9999;\r\n\tborder: 0;\r\n\tbackground-color: #000!important;\r\n}\r\n#MB_overlay[id] { position: fixed; }\r\n\r\n#MB_windowwrapper {\r\n\tposition:absolute;\r\n\ttop:0;\r\n\twidth:100%;\r\n}\r\n\r\n#MB_window {\r\n\tposition:relative;\r\n\tmargin-left:auto;\r\n\tmargin-right:auto;\r\n\ttop:0;\r\n\tleft:0;\r\n\tborder: 0 solid;\r\n\ttext-align: left;\r\n\tz-index: 10000;\r\n}\r\n#MB_window[id] { position: relative; }\r\n\r\n#MB_frame {\r\n\tposition: relative;\r\n\tbackground-color: #EFEFEF;\r\n\theight: 100%;\r\n}\r\n\r\n#MB_header {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n}\r\n\r\n#MB_content {\r\n\tposition: relative;\r\n\tpadding: 6px .75em;\r\n\toverflow: auto;\r\n}\r\n\r\n#MB_caption {\r\n\tfont: bold 100% \"Lucida Grande\", Arial, sans-serif;\r\n\ttext-shadow: #FFF 0 1px 0;\r\n\tpadding: .5em 2em .5em .75em;\r\n\tmargin: 0;\r\n\ttext-align: left;\r\n}\r\n\r\n#MB_close {\r\n\tdisplay: block;\r\n\tposition: absolute;\r\n\tright: 5px; top: 4px;\r\n\tpadding: 2px 3px;\r\n\tfont-weight: bold;\r\n\ttext-decoration: none;\r\n\tfont-size: 13px;\r\n}\r\n#MB_close:hover {\r\n\tbackground: transparent;\r\n}\r\n\r\n#MB_loading {\r\n\tpadding: 1.5em;\r\n\ttext-indent: -10000px;\r\n\tbackground: transparent url(/images/spinner.gif) 50% 0 no-repeat;\r\n}\r\n\r\n/* Color scheme */\r\n#MB_window {\r\n\tbackground-color: #EFEFEF;\r\n\tcolor: #000;\r\n\t\r\n\t-webkit-box-shadow: 0 0 64px #000; \r\n\t-moz-box-shadow: #000 0 0 64px; \r\n\tbox-shadow: 0 0 64px #000;\r\n}\r\n\t#MB_frame {\r\n\t\tpadding-bottom: 4px;\r\n\t\t\r\n\t\t-webkit-border-bottom-left-radius: 4px;\r\n\t\t-webkit-border-bottom-right-radius: 4px;\r\n\r\n\t\t-moz-border-radius-bottomleft: 4px;\r\n\t\t-moz-border-radius-bottomright: 4px;\r\n\r\n\t\tborder-bottom-left-radius: 4px;\r\n\t\tborder-bottom-right-radius: 4px;\r\n\t}\r\n\t\r\n\t#MB_content { border-top: 1px solid #F9F9F9; }\r\n\r\n\t#MB_header {\r\n\t  background-color: #DDD;\r\n\t  border-bottom: 1px solid #CCC;\r\n\t}\r\n\t\t#MB_caption { color: #000 }\r\n\t\t#MB_close { color: #777 }\r\n\t\t#MB_close:hover { color: #000 }\r\n\r\n\r\n/* Alert message */\r\n.MB_alert {\r\n\tmargin: 10px 0;\r\n\ttext-align: center;\r\n}"
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 917
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:33.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 8
+          }
+        },
+        "timings": {
+          "blocked": 1,
+          "dns": 0,
+          "connect": 60,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.164-05:00",
+        "time": 118,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/logo.gif?1334788122",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334788122",
+              "value": ""
+            }
+          ],
+          "headersSize": 669,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:33 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 3499
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 3499
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:33.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 57,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.164-05:00",
+        "time": 136,
+        "request": {
+          "method": "GET",
+          "url": "http://assets0.pragprog.com/images/login-button.gif?1334788122",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets0.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334788122",
+              "value": ""
+            }
+          ],
+          "headersSize": 677,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:33 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 1272
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 1272
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:33.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 18,
+          "connect": 57,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.223-05:00",
+        "time": 120,
+        "request": {
+          "method": "GET",
+          "url": "http://imagery.pragprog.com/products/241/dnvim_xlargebeta.jpg?1334333219",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "imagery.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Fri, 13 Apr 2012 16:07:02 GMT"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"c1c70f73e3cf556c7f9e42cee8cdf676\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334333219",
+              "value": ""
+            }
+          ],
+          "headersSize": 738,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Cache-Control",
+              "value": "public max-age=315360000"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:06:40 GMT"
+            },
+            {
+              "name": "Etag",
+              "value": "\"c1c70f73e3cf556c7f9e42cee8cdf676\""
+            },
+            {
+              "name": "Expires",
+              "value": "Thu, 31 Dec 2037 23:55:55 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 13 Apr 2012 16:07:02 GMT"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 varnish"
+            },
+            {
+              "name": "X-Varnish",
+              "value": "407127527"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "content": {
+            "mimeType": "image/jpeg",
+            "size": 20209
+          },
+          "redirectURL": "",
+          "headersSize": 299,
+          "bodySize": 20209
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-15T02:40:14.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 59,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "204.236.135.144",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.224-05:00",
+        "time": 111,
+        "request": {
+          "method": "GET",
+          "url": "http://assets1.pragprog.com/images/watch_me.png?1334788122",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets1.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1334788122",
+              "value": ""
+            }
+          ],
+          "headersSize": 673,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:33 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/png",
+            "size": 2877
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 2877
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:33.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 50,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:55.231-05:00",
+        "time": 121,
+        "request": {
+          "method": "GET",
+          "url": "http://imagery.pragprog.com/products/291/bhtmux_smallcover.jpg?1330443523",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "imagery.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://pragprog.com/book/dnvim/practical-vim"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Tue, 28 Feb 2012 15:38:46 GMT"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"8b485cdfb84c542a82bf24bb7f5ba61a\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "1330443523",
+              "value": ""
+            }
+          ],
+          "headersSize": 739,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Cache-Control",
+              "value": "public max-age=315360000"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:06:40 GMT"
+            },
+            {
+              "name": "Etag",
+              "value": "\"8b485cdfb84c542a82bf24bb7f5ba61a\""
+            },
+            {
+              "name": "Expires",
+              "value": "Thu, 31 Dec 2037 23:55:55 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 28 Feb 2012 15:38:46 GMT"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 varnish"
+            },
+            {
+              "name": "X-Varnish",
+              "value": "407127528"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "content": {
+            "mimeType": "image/jpeg",
+            "size": 2498
+          },
+          "redirectURL": "",
+          "headersSize": 299,
+          "bodySize": 2498
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-02-26T15:55:23.000Z",
+            "lastAccess": "2012-04-19T00:05:55.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 1,
+          "connect": 58,
+          "send": 0,
+          "wait": 62,
+          "receive": 0
+        },
+        "serverIPAddress": "204.236.135.144",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.111-05:00",
+        "time": 62,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/stylesheets/shared.css",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/print.css?1334788122"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 666,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/css",
+            "size": 1784,
+            "text": "/*\n  shared.css - styles shared between print and screen\n  Copyright (c) 2007 The Pragmatic Programmers\n*/\nh1, h2, h3 {\n  letter-spacing: -.05em;\n}\n.hidden-modern {\n  display: none;\n}\n#content img {\n  background: white;\n  border: 1px solid #ccc;\n  padding: 3px;\n}\n#head img.picture {\n  background: none;\n  border: 0;\n  padding: 0;\n  float: right;\n  margin-top: -10px;\n}\n#content img.no-border,\n#content img.glyph,\n#content img.feed-icon,\n#content img.button {\n  background: none;\n  border: 0;\n  padding: 0;\n}\n#content img.glyph {\n  vertical-align: middle;\n}\n#content a img.glyph {\n  filter: Alpha(opacity=100);\n  opacity: 1.0;\n}\n#content a:hover img.glyph {\n  filter: Alpha(opacity=75);\n  opacity: .75;\n}\n#content .button {\n  display: inline-block;\n}\n#content button:hover,\n#content .button:hover {\n  filter: Alpha(opacity=80);\n  opacity: .80;\n}\n#content ul.inline {\n  padding-left: 0;\n  margin-left: 0;\n  list-style: none;\n}\n#content ul.inline li {\n  display: inline;\n  background: url(/images/bullet.gif) no-repeat left center;\n  padding-left: 15px;\n  margin-right: 1.5em;\n}\n#content dl {\n  margin: 0;\n  margin-top: 1em;\n  margin-bottom: 1em;\n  padding: 0;\n}\n#content dl dt {\n  margin-top: .75em;\n  margin-bottom: .25em;\n  margin-left: 0;\n}\n#content dl dd {\n  margin-top: .25em;\n  margin-bottom: .75em;\n  margin-left: 1.5em;\n}\n#content dl.menu dt {\n  font-size: 130%;\n  background: url(/images/bullet.gif) no-repeat 8px center;\n  padding-left: 24px;\n}\n#content dl.menu dd {\n  margin-left: 24px;\n}\n#content .three-column .column {\n  float: left;\n  margin: 0;\n  padding: 0;\n  width: 33%;\n}\n#content .three-column .column ul {\n  margin-top: 0;\n}\n\ninput.openid {\n\tbackground: transparent url(https://pragprog.com/images/openid-14x14.png) no-repeat scroll 0pt 50%;\n\tpadding-left:16px;\n}\n"
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 716
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 9
+          }
+        },
+        "timings": {
+          "blocked": 1,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.112-05:00",
+        "time": 74,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/stylesheets/high.css",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/screen.css?1334788122"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 665,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "text/css",
+            "size": 65578,
+            "text": "/*\n  high.css - screen styles for modern browsers\n  Copyright (c) 2007 The Pragmatic Programmers\n*/\n\nbody {\n  background-color: #858072;\n  color: white;\n  padding: 0;\n  margin: 0;\n/*  -moz-opacity: .99; Firefox 2.0 bug fix. Crashes 3.0 with nvidia drivers on Linux */\n}\n.clear {\n  clear: both;\n  overflow: hidden;\n  height: 0;\n  display: block;\n}\n.highlight {\n  background: #ffc; \n}\n\n#logo {\n  position: absolute;\n  left: 25px;\n  z-index: 1;\n  cursor: pointer;\n}\n#logo span, #logo a {\n  background: url(/images/logo-screen2.gif) no-repeat 0 0;\n  display: block;\n  width: 275px;\n  height: 113px;\n  cursor: pointer;\n}\n#logo a:hover {\n  background: url(/images/logo-screen2.gif) no-repeat 0 -114px;\n}\n#logo img {\n  display: none;\n}    \n\n\n#logo-life {\n  position: absolute;\n  left: 25px;\n  z-index: 1;\n  cursor: pointer;\n}\n#logo-life span, #logo-life a {\n  background: url(/images/logo-life-screen2.gif) no-repeat 0 0;\n  display: block;\n  width: 275px;\n  height: 113px;\n  cursor: pointer;\n}\n#logo-life a:hover {\n  background: url(/images/logo-life-screen2.gif) no-repeat 0 -114px;\n}\n#logo-life img {\n  display: none;\n}    \n\n\n\n\n#navigation {\n  background-color: #333;\n  border-bottom: 10px solid #d2c2a6;\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif; \n  font-size: 100%;\n  height: 86px;\n  text-align: right;\n  overflow: hidden;\n  padding-top: 0px;\n}\n#navigation .separator {\n  color: #777;\n}\n#navigation p {\n  padding: 0;\n  padding-top: 5px;\n  padding-right: 32px;\n  padding-right: 25px;\n  margin: 0;\n  margin-left: 300px;\n  right: 25px;\n  line-height: 1em;\n}\n#navigation p.login {\n  margin-top: 20px;\n}\n#navigation a {\n/*  text-shadow: 0 0 0 #000;*/\n  color: #ccc;\n  display: inline-block;\n  padding-top: 3px;\n  padding-bottom: 3px;\n  text-decoration: none;\n}\n#navigation a.here {\n  background: url(/images/nav-underline.gif) no-repeat center bottom;\n}\n#navigation a:hover {\n  color: white;\n  background: url(/images/nav-underline.gif) no-repeat center bottom;\n}\n#navigation a strong {\n  font-weight: normal;\n  color: white;\n}\n#navigation a.login-button {\n  background-image: none !important;\n  padding: 0;\n}\n#navigation a.login-button img {\n  vertical-align: middle;\n  margin-bottom: 0px;\n}  \n\n  \n#life-tagline {\n  position: absolute;\n  left: 325px;\n  top: 50px;\n  z-index: 1;\n}\n#life-tagline span {\n  background: url(/images/pragmatic_life.gif) no-repeat 0 0;\n  display: block;\n  width: 400px;\n  height: 32px; \n}\n \n#navigation-life {\n  background-color: #000;  \n  border-bottom: 40px solid #c82c2d;\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 120%;\n  height: 46px;\n  text-align: right;\n  overflow: hidden;   \n}\n\n#navigation-life #tagline {\n  \n}\n#navigation-life .separator {\n  color: #333;\n}\n#navigation-life p {\n  padding: 0;\n  padding-top: 10px;\n  padding-right: 32px;\n  padding-right: 25px;\n  margin: 0;\n  margin-left: 300px;\n  right: 25px;\n  line-height: 1em;\n}\n#navigation-life a {\n/*  text-shadow: 0 0 0 #000;*/\n  color: #ccc;\n  display: inline-block;\n  padding-top: 3px;\n  padding-bottom: 3px;\n  text-decoration: none;\n}\n#navigation-life a.here {\n  background: url(/images/nav-underline.gif) no-repeat center bottom;\n}\n#navigation-life a:hover {\n  color: white;\n  background: url(/images/nav-underline.gif) no-repeat center bottom;\n}\n#navigation-life a strong {\n  font-weight: normal;\n  color: white;\n}\n#navigation-life a.login-button {\n  background-image: none !important;\n  padding: 0;\n}\n#navigation-life a.login-button img {\n  vertical-align: middle;\n  margin-bottom: -4px;\n}  \n\n\n\n#main {\n  background: white;\n  color: #333;\n  float: left;\n  width: 100%;\n}\n#flash_notice,\n#flash_warning,\n#flash_error {\n  border-top: 3px solid silver;\n  border-bottom: 3px solid silver;\n  margin-top: -22px;\n  margin-left: -25px;\n  margin-right: -25px;\n  margin-bottom: 22px;\n  text-align: center;\n}\n\n#flash_captcha_error {\n  border-top: 3px solid silver;\n  border-bottom: 3px solid silver;\n  text-align: center;\n}\n\nbody.title-index-page #flash_notice,\nbody.title-index-page #flash_warning,\nbody.title-index-page  #flash_error,\nbody.login-page #flash_notice,\nbody.login-page #flash_warning,\nbody.login-page  #flash_error {\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n#flash_notice p,\n#flash_warning p,\n#flash_error p {\n  padding-left: 25px;\n  padding-right: 25px;\n}\n#flash_notice {\n  border-top-color: #5abd7b;\n  border-bottom-color: #5abd7b;\n  background-color: #20a64c;\n  color: white;\n}\n#flash_warning {\n  border-top-color: #f0d38b;\n  border-bottom-color: #f0d38b;\n  background-color: #e1b445;\n  color: white;\n}\n#flash_error, #flash_captcha_error {\n  border-top-color: #f1948c;\n  border-bottom-color: #f1948c;\n  background-color: #d9715d;\n  color: white;\n}\n\n#head, #content, #footer {\n  padding-left: 25px;\n  padding-right: 25px;\n}\n#head-wrapper {\n  border-top: 1px solid #9C978A;\n  background: #eaddb8 url(/images/head-background.png) repeat-x 0 0;\n  margin-left: -25px;\n  margin-right: -25px;\n  margin-bottom: 22px;\n}\n#head {\n  background: url(/images/head-background-bottom.png) repeat-x bottom;\n  border-bottom: 1px solid #ddd1ae;\n}\n#head h1 {\n  font-size: 240%;\n  margin-top: 40px;\n  margin-bottom: 25px;\n/*  text-shadow: 0 0 0 #000; */\n}\n#head h2 {\n  margin-top: -25px;\n  margin-bottom: 25px;\n  font-size: 125%;\n  color: #746f62 !important;\n}\n#head a {\n  color: #b85d55;\n}\n#head a:visited {\n  color: #9f79ac;\n}\n#head a:hover,\n#head a:visited:hover {\n  color: #d65554;\n}\n#head p {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  margin-top: -15px;\n  margin-bottom: 25px;\n  font-size: 125%;\n  color: #746F62 !important;\n}\n#head #checkout-progress {\n  margin-left: -4px;\n  margin-top: 5px;\n  margin-bottom: -10px;\n}\n#head ul.tabs,\n#head ul.tabs li {\n  list-style: none;\n  list-style-image: none;\n  margin: 0;\n  padding: 0;\n}\n#head ul.tabs {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 115%;\n  margin-top: -7px;\n  margin-bottom: -2px;\n  padding: 5px;\n  padding-left: 0;\n}\n#head ul.tabs li {\n  display: inline;\n  background: #f7eed4 url(/images/tab-bottom.gif) repeat-x bottom;\n  padding: 5px;\n  padding-left: 15px;\n  padding-right: 18px;\n}\n#head ul.tabs li a {\n  background: url(/images/tab-left.gif) no-repeat left top;\n  color: #6e6b64;\n  display: inline;\n  margin: -5px;\n  margin-left: -15px;\n  margin-right: -18px;\n  padding: 5px;\n  padding-left: 15px;\n  padding-right: 18px;\n  text-decoration: none;\n}\n#head ul.tabs li a span,\n#head ul.tabs li.here a strong {\n  display: inline;\n  background: url(/images/tab-right.gif) no-repeat right top;\n  margin: -5px;\n  margin-left: -15px;\n  margin-right: -18px;\n  padding: 5px;\n  padding-left: 15px;\n  padding-right: 18px;\n}\n#head ul.tabs li.here {\n  background: #faf4e0 url(/images/tab-selected-top.gif) repeat-x top;\n}\n#head ul.tabs li.here a {\n  color: #222;\n  background: url(/images/tab-selected-left.gif) no-repeat left top;\n}\n#head ul.tabs li.here a strong {\n  background: url(/images/tab-right.gif) no-repeat right top;\n  font-weight: normal;\n}\n#head ul.tabs li a:hover,\n#head ul.tabs li a:visited:hover {\n  color: #d07056;\n}\n\n#head ul.dropdown {\n  font-size: 75%;              \n  text-align: right;\n  margin-top: -20px !important;\t\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif; \n  font-weight: bold;                                         \n}\n\n#content {\n  color: #444;\n  font-size: 110%;\n  padding-bottom: 25px;\n/*  text-shadow: 0 0 0 #000; */\n}\n#content h1, #content h2, #content h3, #content h4, #content h5 {\n  color: #333;\n}\n#content h3 {\n  background: url(/images/h3-underline.gif) repeat-x bottom;\n  font-size: 200%;\n  margin-top: 1.25em;\n  margin-bottom: .75em;\n}\n#content h3.no-rule {\n  background: none;\n  margin-bottom: .5em;\n}\n#content h3.first {\n  margin-top: 0em;\n}\n#content h4 {\n  background: url(/images/h3-underline.gif) repeat-x bottom;\n  font-size: 160%;\n  padding-bottom: 1px;\n  margin-top: 1em;\n  margin-bottom: .5em;\n}\n#content h4.no-rule {\n  background: none;\n}\n#content h5 {\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n  font-size: 120%;\n  font-weight: bold;\n  margin-top: 1em;\n  margin-bottom: -.75em;\n}\n#content ul li {\n  list-style-image: url(/images/bullet.gif);\n}\n#content ul.discounts li,\n#sidebar ul.discounts li {\n  list-style-image: url(/images/add-to-cart-glyph.gif);\n}\n#content .more a,\n#content a.more {\n  color: #b95e56;\n}\n#content .more a:hover,\n#content a.more:hover {\n  color: red;\n}\n#content .bio {\n  margin-top: 2em;\n  margin-bottom: 2em;\n  position: relative;\n  padding-left: 118px;\n}\n#content .bio img {\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n#content .bio big {\n  font-size: 130%;\n}\n#content ul.bookshelf,\n#content ul.bookshelf li {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n  list-style-image: none;\n}\n#content ul.bookshelf {\n  width: 100%;\n  float: left;\n  margin-right: -1em;\n  margin-bottom: -1em;\n}\n#content ul.bookshelf li {\n  float: left;\n  margin-right: .5em;\n  margin-bottom: .5em;\n}\n#content ul.bookshelf img {\n  background-color: transparent;\n  background: url(/images/books/75x90/book-shadow.gif) no-repeat 0 0;\n  border: 0;\n  padding: 4px;\n}\n#content #book-detail {\n  position: absolute; \n  text-align: center;\n  top: 30px;\n  right: 25px;\n  width: 204px;\n}\n#content #book-detail .thumbnail {\n\n\n}\n#content #book-detail .thumbnail img {\n  background: none;\n  border: 0;\n  padding: 0px;\n  margin: 7px;\n  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n  border: 1px solid #CCC;\n}\n#content #book-detail .extras {\n  font-size: 110%;\n  padding-top: 2px;\n  padding-bottom: 14px;\n}\n#content #book-detail .stats {\n  border-top: 2px solid #ceccc4;\n  border-bottom: 2px solid #ceccc4;\n  color: #999;\n  font-size: 90%;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  margin-left: 7px;\n  margin-right: 7px;\n  width: 190px;\n}\n#content #book-detail .stats ul.features {\n  padding-left: 1.5em;\n}\n#content #book-detail .stats ul.features li {\n  padding-left: .25em;\n  text-align: left;\n}\n#content #book-detail .tags {\n  font-size: 90%;\n  margin-left: 7px;\n  margin-right: 7px;\n  padding-top: 14px;\n  padding-bottom: 14px;\n  filter: Alpha(opacity=55);\n  opacity: .55;\n  width: 190px;\n}   \n\n#content #book-detail .stats .track-our-progress {\n  margin-top: 3px;\n  margin-bottom: 3px;\n  color: #696;\n  font-weight: bold;\n}\n\n#content #title-view {\n  padding: 25px;\n  margin-top: -10px;\n  margin-bottom: -10px;\n  margin-left: -25px;\n  padding-right:265px;\n  background: url(/images/titles-sidebar-background.gif) repeat-y right;\n  box-shadow:inset 0px 30px 30px #FAF4E0;\n}\n#content #title-view .inner-1 {\n  background: url(/images/titles-sidebar-background.gif) repeat-y right;\n}\n#content #title-view .inner-2 {\n  background: url(/images/titles-sidebar-top-background.gif) no-repeat right top;\n}\n#content #title-view .inner-3 {\n  display: inline-block;\n  margin-right: 265px;\n}\n#content #title-view .order {\n  color: #746F62;\n  font-size: 90%;\n  margin-top: -5px;\n  margin-bottom: 1em;\n  text-align: left;\n}\n#content #title-view .book {\n  display: inline;\n}\n#content #title-view .book .thumbnail {\n  display: block;\n  float: left;\n  margin-right: 20px;\n  margin-bottom: 20px;\n  text-align:center;\n  width:138px;\n}\n#content #title-view .book .thumbnail img {\n  background-color: transparent;\n  margin: 9px;\n  padding: 0px;\n  box-shadow: 2px 3px 2px rgba(0,0,0,0.2);\n  -webkit-box-shadow: 2px 3px 2px rgba(0,0,0,0.2);\n  -moz-box-shadow: 2px 3px 2px rgba(0,0,0,0.2);\n  border: none;\n}\n#content #title-view .book.selected .thumbnail img {\n  margin:0px;\n  border: 9px solid #cb8a81;\n  box-shadow:none;\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  \n}\n#content #title-view .book .details {\n  display: none;\n  position: absolute;\n  padding-top: 1px;\n  right: 25px;\n  width: 230px;\n}\n#content #title-view .book .details {\n  font-size: 90%;\n}\n#content #title-view .book .details h4 {\n  background: none;\n  margin-top: 0;\n  margin-bottom: .25em;\n  line-height: 1.1em;\n}\n#content #title-view .book .details p {\n  margin-top: .5em;\n}\n#content #title-view p {\n  line-height: 1.5em;\n}\n#content form label {\n  display: block;\n  font-size: 115%;\n  color: #333;\n} \n\ndiv.book-format-option {\n  margin-top: 0.3em;\n  margin-bottom: 0.5em;\n}\n\ndiv.book-format-option label { \n  display:inline !important;\n  font-size: 120%;\n  color: #333;\n}\n\n#content form label.required {\n  font-weight: bold;\n}\n#content form label.inline {\n  display: inline;\n}\n#content form select {\n  font-size: 120%; \n}\n#content form input.textbox {\n  font-size: 100%;\n}\n#content form input.large.textbox {\n  font-size: 120%;\n}\n#content form textarea.large {\n  font-size: 120%;\n  width:auto; \n  background:white;\n}\n#content form .hint {\n  color: #666;\n  display: block;\n  font-size: 90%;\n  font-style: italic;\n}\n#content form .importantHint {\n  color: #333;\n  display: block;\n  font-size: 120%;\n  font-style: bold;\n}\n#content form dl.options {\n  margin: 0;\n}\n#content form dl.options dt {\n  color: #333;\n  font-weight: bold;\n  margin-top: 1em;\n  margin-bottom: .1em;\n}\n#content form dl.options dt small {\n  font-weight: normal;\n  color: #444;\n}\n#content form dl.options dd {\n  color: #777;\n  font-style: italic;\n  margin-left: 1.5em;\n  margin-top: .1em;\n  margin-bottom: 1em;\n}\n#content form dl.options .warning {\n  color: #ff5554;\n}\n#content form span.error-with-field span.error {\n  display: block;\n  color: #d65554;\n}\n#content fieldset {\n  border: 0;\n  margin-top: 1em;\n  margin-bottom: 2em;\n  padding: 20px;\n  padding-top: .25em;\n  padding-bottom: .5em;\n}\n#content fieldset legend {\n  font-size: 1.3em;\n  font-weight: bold;   \n  color: #C05B56;\n}\n#content fieldset.no-heading {\n  margin-top: 2em;\n}   \n\n#content fieldset.hint {\n  margin-top: 4em;\n  color: #666;\n  display: block;\n  font-size: 90%;\n  font-style: italic;\n}\n\n#content fieldset.hint code{\n  color: #333;\n  font-style: normal;\n}\n\n\n#content form .set {\n  float: left;\n  width: 100%;\n  padding-bottom: 1em;\n}\n#content form .set p {\n  float: left;\n  margin-right: 10px;\n}\n#content form .group {\n  margin-top: 1em;\n  margin-bottom: .5em;\n}\n#content form .group p {\n  margin-top: 0;\n  margin-bottom: .5em;\n}\n#content form .group .set {\n  padding-bottom: 1px;\n}\n#content .two-column {\n  float: left;\n  padding-bottom: 1em;\n  width: 100%;\n}\n#content .two-column .column-wrapper {\n  float: left;\n  width: 50%;\n}\n#content .two-column .left.column {\n  margin-right: 12px;\n}\n#content .two-column .right.column {\n  margin-left: 13px;\n}\n#content .important {\n  font-size: 120%;\n  text-align: center;\n}\n#content .box {\n  margin-top: 3em;\n  margin-bottom: 3em;\n  padding: 20px;\n  padding-top: 15px;\n}\n\n#content .box.tight {\n  margin-top: 1em;\n  margin-bottom: 2em;\n  padding: 10px;\n}\n#content .box,\n#content fieldset {\n  background-color: #f0f0ed;\n}\n\n#content div.rounded, \n#content fieldset.rounded {\n  border-radius: 15px;\n  -moz-border-radius: 15px;\n  -webkit-border-radius: 15px;\n}\n\n#content .highlight {\n  background: #ffffd5;\n}\n#content .highlight.box {\n  margin-top: 2em;\n  margin-bottom: 2em;\n  padding: 1px;\n  padding-left: 20px;\n  padding-right: 20px;\n}                  \n#content .highlight.box.no-top-margin {\n  margin-top: -22px !important;\t\n}\n\n#content .highlight.box p {\n  margin-top: 1em;\n  margin-bottom: 1em;\n}\n#content .box h3,\n#content .box h4 {\n  margin-top: 0;\n}\n#content .box select {\n  margin: 0;\n  padding: 0;\n}\n#content .box button.add-to-cart {\n  background: url(/images/add-to-cart-on-silver.gif) no-repeat 0 0;\n  border: 0;\n  cursor: pointer;\n  margin: 0;\n  margin-top: 4px;\n  margin-bottom: 4px;\n  padding: 0;\n  width: 109px;\n  height: 31px;\n  vertical-align: middle;\n}\n#content .box button.add-to-cart span {\n  display: none;\n}\n\n#content .buy-from-wishlist button.add-to-cart {\n  background: url(/images/add-to-cart-on-white.gif) no-repeat 0 0;\n  border: 0;\n  cursor: pointer;\n  margin: 0;\n  margin-top: 4px;\n  margin-bottom: 4px;\n  padding: 0;\n  width: 109px;\n  height: 31px;\n  vertical-align: middle;\n}\n#content .buy-from-wishlist button.add-to-cart span {\n  display: none;\n}    \n\n#content .wish-list-move {\n  float: right;\n  margin-top: 2em;\n  margin-right: 3em;\n  font-size: x-small;\n  width: 20em; \n  text-align: right;\n}                   \n\n#sortable_table .handle {\n  font-size: x-small;\t\n  color: #aaa;\n}   \n\n#content p.wishlist-item-in-cart {\n  color: #aaa;\n  font-size: small;\n}            \n\n#content div.fill-in-address-warning {\n font-size: larger;\n padding-right: 30%;\n color: #722;\n margin-bottom: 0.5em;   \n}\n\n#content .box button.add-to-wishlist {\n  background: url(/images/add-to-wishlist-on-silver.gif) no-repeat 0 0;\n  border: 0;\n  cursor: pointer;\n  margin: 0;\n  margin-top: 4px;\n  margin-bottom: 4px;\n  padding: 0;\n  width: 109px;\n  height: 29px;\n  vertical-align: middle;\n}\n\n#content .box button.add-to-wishlist span {\n  display: none;\n}\n\n\n#content .box .message {\n  font-size: 90%;\n  color: #2d9841;\n  margin-top: 0.4em;\n}\n#content .box .two-column {\n  padding-bottom: 1px;\n}\n#content .pager {\n  background-color: #cde1f5;\n  color: black;\n  font-size: 110%;\n  margin-top: 25px;\n  margin-bottom: 5px;\n  padding: 14px;\n  text-align: center;\n}\n#content .pager strong,\n#content .pager a {\n  padding: 6px;\n  padding-left: 10px;\n  padding-right: 10px;\n}\n#content .pager a:hover,\n#content .pager a:visited:hover {\n  background: #e6f0fa;\n}\n#content .pager strong {\n  background-color: white;\n}\n#content .buttons {\n  border-top: 3px solid #ccc;\n  margin-top: 3em;\n  padding-top: 1.5em;\n  padding-bottom: 1.5em;\n}\n#content .buttons button,\n#content .buttons input.button {\n  font-size: 140%;\n}\n#content .buttons p {\n  margin-top: 0;\n}\n#content #mini-cart {\n  border-left: 3px solid white;\n  font-size: 85%;\n  float: right;\n  margin: -20px;\n  margin-left: 20px;\n  padding: 20px;\n  width: 180px;\n}\n#content #mini-cart h3 {\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  font-size: 120%;\n  background: url(/images/cart-icon.gif) no-repeat left center;\n  margin-right: 0;\n  margin-left: -3px;\n  margin-bottom: .75em;\n  padding: 6px;\n  padding-left: 26px;\n  padding-right: 0px;\n}\n#content #mini-cart h3 a {\n  color: #333;\n  text-decoration: none;\n}\n#content #mini-cart h3 a:hover,\n#content #mini-cart h3 a:visited:hover {\n  text-decoration: underline;\n}\n#content #mini-cart ul,\n#content #mini-cart li {\n  list-style: none;\n  list-style-image: none;\n  margin: 0;\n  padding: 0;\n}\n#content #mini-cart li {\n  text-indent: -1.6em;\n  padding-left: 1.6em;\n  padding-bottom: .5em;\n}\n#content #mini-cart .more {\n  margin-top: .75em;\n  margin-bottom: 0;\n}\n#content .bio {\n  margin-top: 2em;\n  margin-bottom: 2em;\n  position: relative;\n  padding-left: 118px;\n}\n#content .bio img {\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n#content .bio big {\n  font-size: 130%;\n}\n#content .outset {\n  margin-left: -25px;\n  margin-top: -22px;\n  margin-right: -25px;\n  margin-bottom: 22px;     \n}\n#content table .negative {\n  color: #d65554;\n}\n#content table.book-list {\n  width: 100%;\n}\n#content table.book-list td {\n  border-bottom: 3px solid #ebebeb;\n  padding: 20px;\n  padding-left: 0;\n  padding-right: 0;\n}\n#content table.book-list td.thumbnail img {\n  background-color: transparent;\n  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);\n  border: 0;\n  margin: 4px;\n  padding:0px;\n}\n#content table.book-list td.description {\n  padding-right: 25px;\n}\n#content table.book-list td.description h3,\n#content table.book-list td.description h4 {\n  background: none;\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  letter-spacing: 0;\n  margin: 0;\n  margin-bottom: .15em;\n}\n#content table.book-list td.description h3 {\n  font-size: 130%;\n  margin-top: 5px;\n}\n#content table.book-list td.description h4 {\n  font-size: 110%;\n}\n#content table.book-list td.description h4 small {\n  color: #666;\n  font-weight: normal;\n}\n#content table.book-list td.description .by-line {\n  font-size: 70%;\n  margin: 0;\n}\n#content table.book-list td.description ul,\n#content table.book-list td.description ol,\n#content table.book-list td.description p {\n  font-size: 90%;\n}\n#content table.book-list td.description .ship-status {\n  font-size: 80%;\n  color: #666;\n  margin-top: .25em;\n}\n#content table#cart td.thumbnail,\n#content table#bookshelf td.thumbnail {\n  padding-left: 25px;\n  width: 95px;\n}\n#content table#bookshelf td.thumbnail img.bought_elsewhere {\n\tfilter:alpha(opacity=50);\n\t-moz-opacity:0.5;\n\t-khtml-opacity: 0.5;\n\topacity: 0.5;\n}\n\n#content table#cart .remove-from-cart-form,\n#content table#discounts .remove-from-cart-form {\n  display: inline;\n  margin: 0;\n  padding: 0;\n}\n#content table#cart .remove-from-cart-form .remove-from-cart-button,\n#content table#discounts .remove-from-cart-form .remove-from-cart-button {\n  border: none;\n  background-color: transparent;\n  background: url(/images/delete-glyph.gif) no-repeat 0 0;\n  margin: 0;\n  padding: 0;\n  width: 16px;\n  height: 16px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content table#cart .remove-from-cart-form .remove-from-cart-button span,\n#content table#discounts .remove-from-cart-form .remove-from-cart-button span {\n  display: none;\n}\n#content table#cart ul.discounts,\n#content table#cart ul.discounts li {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n  list-style-image: none;\n}\n#content table#cart ul.discounts {\n  margin-top: .25em;\n  font-size: 90%;\n}\n#content table#cart ul.discounts li {\n  background: url(/images/add-to-cart-glyph.gif) no-repeat left .1em;\n  padding-left: 20px;\n}\n#content table#cart ul.discounts li a {\n  color: #b95e56;\n}\n#content table#cart ul.discounts li a:visited {\n  color: #9456d1;\n}\n#content table#cart ul.discounts li a:hover,\n#content table#cart ul.discounts li a:visited:hover {\n  color: #d65554;\n}\n#content table#cart td.quantity {\n  font-size: 85%;\n  width: 110px;\n}\n#content table#cart td.quantity input.textbox {\n  width: 55px;\n}\n#content table#cart td.quantity .update-cart-button {\n  border: 0;\n  background-color: transparent;\n  background: url(/images/mini-update-button.gif) no-repeat 0 0;\n  margin: 0;\n  margin-bottom: 3px;\n  margin-left: 3px;\n  padding: 0;\n  width: 47px;\n  height: 19px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content table#cart td.quantity .update-cart-button span {\n  display: none;\n}\n#content table#cart td.quantity .info {\n  font-size: 80%;\n}\n#content table#cart td.price,\n#content #discounts .discount,\n#content #subtotal .value {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 120%;\n  padding-right: 25px;\n  width: 5em;\n  text-align: right;\n}\n#content table#order-summary th.item {\n  padding-left: 6px;\n  text-align: left;\n}\n#content table#order-summary td.thumbnail {\n  padding-left: 10px;\n  padding-right: 10px;\n  width: 46px;\n}\n#content table#order-summary td.thumbnail img {\n  background: url(/images/books/40x48/book-shadow.gif) no-repeat 0 0;\n  padding: 3px;\n}\n#content table#order-summary td.quantity {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 110%;\n  text-align: center;\n  width: 25%;\n}\n#content table#order-summary td.amount,\n#content table#order-totals td.amount {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 110%;\n  text-align: right;\n  padding-right: 10px;\n  width: 5em;\n}\n#content table#order-totals {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 110%;\n  width: 100%;\n  margin-bottom: 0;\n}\n#content table#order-totals tbody th {\n  font-weight: normal;\n  text-align: right;\n}\n#content table#order-totals tbody th,\n#content table#order-totals tbody td {\n  padding-top: .35em;\n  padding-bottom: .35em;\n}\n#content table#order-totals td.amount {\n  font-size: 100%;\n}\n#content table#order-totals tbody .total th,\n#content table#order-totals tbody .total td {\n  background-color: #f0f0ed;\n  color: #333;\n  font-size: 110%;\n}\n#content table#order-totals tbody .total td.amount {\n  font-size: 115%;\n}\n#content form .fieldset {\n  margin-top: .75em;\n  margin-bottom: .57em;\n}\n#content form .fieldset td,\n#content form .fieldset th {\n  padding-top: .25em;\n  padding-bottom: .25em;\n}\n#content form .fieldset th {\n  padding-right: .75em;\n  text-align: right;\n}\n#content .box table#order-summary td {\n  background: white;\n  border-bottom: 3px solid #f0f0ed;\n}\n#content .box table#order-totals th {\n  padding-right: 10px;\n}\n#content .box table#order-totals .total {\n  background: white;\n  border: 2px solid #ccc;\n}\n#content #bookshelf tr.highlight td {\n  background: #ffffe0;\n}\n#content #bookshelf td.selected {\n  width: 15px;\n  padding-left: 25px;\n}\n#content #bookshelf td.actions {\n  width: 10em;\n  padding-right: 25px;\n}\n#content #bookshelf td.actions ul {\n  visibility: hidden;\n  font-size: 90%;\n}\n#content #bookshelf tr.highlight td.actions ul {\n  visibility: visible;\n  font-size: 90%;\n}\n#content #bookshelf .extras {\n  font-size: 80%;\n  margin-top: .2em;\n  margin-bottom: 0;\n}\n#content #bookshelf ul.skus {\n  padding-left: 1.5em;\n  font-size: 90%;\n  margin-top: 1em;\n  margin-bottom: 0;\n}\n#content #bookshelf ul.downloads {\n  font-size: 100%;\n  margin-top: 1em;\n  margin-bottom: 1em;\n}\n#content span#polling_timer {\n\tfont-size: 135%;\n\tfont-weight: bold;\n\tcolor: #778;\n}      \n\n#content div#regen_status div.status {  \n   width: 240px;\n   padding-right: 10px;\n   padding-left: 10px;   \n   border: 1px solid #999;\n}\n\n#content div#regen_status div.status div.timer {  \n    background-image: url(\"/images/spinner-bar.gif\") ;\n    height: 19px;\n    width: 10px;\n}\n\n#content #discounts-bar {\n  background: #a69f8c url(/images/bar-background.png) repeat-x 0 0;\n  margin: -25px;\n  margin-bottom: -22px;\n  padding: 25px;\n  padding-right: 0;\n  padding-top: 12px;\n  padding-bottom: 12px;\n}\n#content #discounts-bar h3 {\n  background-image: none;\n  font-style: italic;\n  font-size: 170%;\n  margin: 0;\n  margin-top: 3px;\n  margin-bottom: -1.25em;\n  padding: 0;\n}\n#content #discounts {\n  float: right;\n  margin-left: 10em;\n  margin-top: 5px;\n  margin-bottom: 5px;\n}\n#content #discounts td {\n  padding-top: 3px;\n  padding-bottom: 3px;\n}\n#content #discounts .description {\n  font-size: 110%;\n  font-weight: bold;\n}\n#content #discounts .description small {\n  font-weight: normal;\n}\n#content #discounts .discount {\n  color: #BF4A45;\n}\n#foot.flush {\n  margin-top: -25px;\n}\n#content #coupon {\n  background: white;\n  float: right;\n  font-size: 120%;\n  margin-bottom: 1em;\n  padding: 1px;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n#content #coupon input.textbox {\n  border: 1px solid silver;\n  font-size: 95%;\n}\n#content #subtotal {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 140%;\n  margin-top: 0em;\n  margin-bottom: 1em;\n  clear: both;\n}\n#content #subtotal .value {\n  font-size: 100%;\n  padding-right: 0;\n}\n#content #check-out-button,\n#content #continue-shopping-button,\n#content #pay-with-paypal-button {\n  border: 0;\n  background-color: transparent;\n  margin: 0;\n  padding: 0;\n}\n#content #buttonfloat {\n  float:right;\n}      \n\n#content #checkout-buttons {\n  text-align: right;    \n}\n\n#content #check-out-button {\n  background: url('/images/check-out-button.gif') no-repeat 0 0;\n  width: 162px;\n  height: 32px;\n/*  float:right; */\n}\n#content #continue-shopping-button {\n  background: url('/images/continue-shopping-button.gif') no-repeat 0 0;\n  width: 193px;\n  height: 34px;\n  float:right;\n  margin-bottom: 30px;\n}  \n\n\n#content #pay-with-paypal-button {\n  background: url('/images/btn_xpressCheckout.gif') no-repeat 0 0;\n  width: 145px;\n  height: 42px;\n  margin-top: 2px; \n  margin-right: 0px;\n/*  float:right; */\n} \n\n#content .change-mind-use-paypal { \n  margin-top: 2em;\n  margin-bottom: 2em;\n  float: right;   \n  border-left: 4px solid #ddd; \n  padding-left: 1em;\n}\n\n#content .change-mind-use-paypal img {\n  border: none;\n  background: none;\n}\n\n#content .change-mind-use-paypal .change-mind-text {\n  text-align: center;\n  color: #888;\n  margin-top: 1.5em;\n  margin-botton: 0.5em;\n}\n \n#content .checkout-button-option { \n  float: right;   \n}       \n\n#content .checkout-or { \n  float: right;\n  color:  #888;\n  font-weight: bold;\n  margin-top:   10px; \n  margin-right: 1.5em;\n  margin-left: 1.5em;\n}       \n\n\n#content .checkout-button-info {\n  width: 150px;\n  font-size: 80%;\n  color: #555;\n  text-align: center;\n}\n      \nform#buy-now table tr { \n\tvertical-align: top;\n}\n\nform#buy-now table tr td.buy-now-format { \n  padding-top: 7px;\n}\n\nform#buy-now table tr td div.buy-now-buttons { \n\tpadding-top:  1em;\n\tpadding-left: 0;\n}\n\nform#buy-now table tr td.formats { \n\tfont-size:  85%;  \n\tpadding-top: 0.5em;\n\tpadding-left: 1em;\n}\n\nform#buy-now table tr td.formats ul { \n\tmargin-top: 6px;\n\tpadding-left: 0;\n    margin-left: 2em;\t\n    text-indent: -2em;\n\tlist-style-position: inside;\n}\n\n\n#content .additional-sales-info {\n\tfont-size: 85%;\n}\n\n#content #check-out-button span,\n#content #continue-shopping-button span,\n#content #pay-with-paypal-button span {\n  display: none;\n}\n#content #shipping_address {\n  margin-top: 1.5em;\n}\n#content #shipping_address h3 {\n  margin-top: 0;\n}\n#content #foot .buttons {\n  border-top: none;\n  margin-bottom: 1.5em;\n  margin-top: 1.5em;\n  padding: 0;\n  clear:both;\n}\n#content table.records {\n  width: 100%;\n}\n\n#content table.auto-width {\n   width: auto;\n}\n\n#content table.records.no-heading {\n  margin-top: 2em;\n}\n#content table.records th,\n#content table.records td {\n  border-bottom: 3px solid #ebebeb;\n  padding: 12px;\n  padding-left: 8px;\n  padding-right: 8px;\n}\n#content table.records th,\n#content table.book-list th {\n  background: #c3c3c3 url(/images/table-header-background.png) repeat-x top;\n  color: #333;\n  padding-top: 4px;\n  padding-bottom: 4px;\n  border-bottom: 0;\n}\n#content table.records .alt td {\n  background: #ececec url(/images/table-row-alt-background.png) repeat-x top;\n}\n#content table.records .right {\n  text-align: right;\n}\n#content table.order.records td {\n  vertical-align: top;\n}\n#content table.order.records .number {\n  text-align: center;\n  width: 4em;\n}\n#content table.order.records .number {\n  text-align: center;\n  width: 4em;\n}\n#content table.order.records .items ul,\n#content table.order.records .items ul li {\n  list-style: none;\n  list-style-image: none;\n  padding: 0;\n  margin: 0;\n}\n#content table.order.records .items ul li {\n  text-indent: -1.6em;\n  padding-left: 1.6em;\n  margin-bottom: .25em;\n}\n\n#content table.podcasts.records td {\n  vertical-align: top; \n  margin-top: 0pt;\n}\n\n#content table.podcasts.records td .duration {\n  font-size: 80%;\n  display: block;\n}\n\n#content table.podcasts.records td .date {\n  margin-top: 5pt;  \n  margin-bottom: 0.5em;\n  display: block;\n}\n\n#content table.podcasts.records td .link {  \n  margin-top: 1em;  \n}\n\n#content table.podcasts.records td .link a {  \n  text-decoration: none;\n}\n\n#content table.podcasts.records td .link a:hover {  \n  text-decoration: underline;\n}\n\n#content table.podcasts.records td img {\n  border: none;\n  vertical-align:  middle;              \n  background: none;\n}\n\n\n#content table.podcasts.records td h1 {\n  margin-top: 0pt;\n  margin-bottom: 0pt;\n  font-size: 140%;\n  font-weight: bold;\n  color: #777766;\n}\n\n#content table.podcasts.records td h2 {\n  margin-top: 0pt;\n  font-size: 120%;\n  color: #444;\n}\n\n#content table.podcasts.records td div.items {\n    margin-bottom: 1em;\n}\n\n#content table.podcasts.records td div.summary {\n    font-size: 90%;\n}\n  \n#content table.magazines.records td img {\n  border: none;\n  vertical-align:  middle;              \n  background: none;\t\n}\n\n#content table.magazines.records td h3 {\n\tmargin-top: 0pt;\n\tfont-size: 160%;\n}\n                                            \n#content table.magazines.records td div.download-links\n{\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n  margin-top: 1em;\n  font-size: 85%;\n}\n\n#content table.magazines.records td div.download-links .links\n{ \n  font-weight: bold;\n  margin-bottom: 0pt;\n}\n\n#content table.magazines.records td div.download-links span.link\n{\n  padding-left: 1em;     \n}\n\n#content table.magazines.records td div.download-links .hint\n{                                                           \n\tcolor: #999;\n\tmargin-top: 0pt;\n}\n\n\n\n#content table.coupon.records td {\n  vertical-align: top;\n}\n\n\n#content table.coupon.records th {\n  text-align: left;\n}\n\n#content button.create-my-account {\n  background: url(/images/create-my-account-button.gif) no-repeat 0 0;\n  border: 0;\n  cursor: pointer;\n  margin: 0;\n  padding: 0;\n  width: 191px;\n  height: 34px;\n  vertical-align: middle;\n}\n#content button.create-my-account span {\n  display: none;\n}\n#content button.shipping {\n  border: 0;\n  background-color: transparent;\n  background: url(/images/shipping-button.gif) no-repeat 0 0;\n  margin: 0;\n  padding: 0;\n  width: 233px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content button.shipping span {\n  display: none;\n}\n#content button.payment {\n  border: 0;\n  background-color: transparent;\n  background: url(/images/payment-button.gif) no-repeat 0 0;\n  margin: 0;\n  padding: 0;\n  width: 231px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content button.payment span {\n  display: none;\n}\n#content button.process-order {\n  border: 0;\n  background-color: transparent;\n  background: url(/images/process-order-button.gif) no-repeat 0 0;\n  margin: 0;\n  padding: 0;\n  width: 217px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content button.process-order span {\n  display: none;\n}\n#content button.back,\n#content a.back.button {\n  border: 0;\n  background-color: transparent;\n  background: url(/images/back-button.gif) no-repeat 0 0;\n  margin: 0;\n  padding: 0;\n  width: 105px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content button.back span,\n#content a.back.button span {\n  display: none;\n}\n#content button.continue-shopping,\n#content a.continue-shopping.button {\n  border: 0;\n  background-color: transparent;\n  background: url('/images/continue-shopping-button.gif') no-repeat 0 0;\n  width: 193px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: top;\n}\n#content button.continue-shopping span,\n#content a.continue-shopping.button span {\n  display: none;\n}\n#content button.check-out,\n#content a.check-out.button {\n  border: 0;\n  background-color: transparent;\n  background: url('/images/check-out-button.gif') no-repeat 0 0;\n  width: 163px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: top;\n}\n#content button.check-out span,\n#content a.check-out.button span {\n  display: none;\n}  \n#content button.view-receipt {\n  border: 0;\n  background-color: transparent;\n  background: url(/images/view-receipt-button.gif) no-repeat 0 0;\n  margin: 0;\n  padding: 0;\n  width: 231px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content button.view-receipt span {\n  display: none;\n}\n#content img.explain-avs-mismatch {\n  border: 0;\n}\n\n#content button.download-wishlist {\n  border: 0;\n  background-color: transparent;\n  background: url(/images/download-wishlist-button.gif) no-repeat 0 0;\n  margin: 0;\n  padding: 0;\n  width: 189px;\n  height: 34px;\n  cursor: pointer;\n  vertical-align: middle;\n}\n#content button.download-wishlist span {\n  display: none;\n}\n#foot {\n  background: #eaddb8 url(/images/foot-background.png) repeat-x top left;\n  margin-top: 22px;\n  margin-left: -25px;\n  margin-right: -25px;\n  margin-bottom: -25px;\n  padding: 25px;\n}\n#sidebar {\n  padding-left: 20px;\n  padding-right: 20px;\n  padding-bottom: 20px;\n}\n#sidebar a {\n  color: #b95e56;\n}\n/*\n#sidebar a:visited {\n  color: #a28a77;\n}\n*/\n#sidebar a:hover,\n#sidebar a:visited:hover {\n  color: #d65554;\n}\n#sidebar h3,\n#extras h3 {\n  clear: both;\n  font-size: 180%;\n  font-style: italic;\n  text-shadow: 0 0 0 #000;\n  margin-top: 25px;\n  margin-bottom: 8px;\n} \n#sidebar h3 a {\n color: black !important;\n text-decoration: none;\n}\n#sidebar h3 a:hover,\n#sidebar h3 a:visited:hover {\n  color: #d65554 !important;\n}\n\n#sidebar p {\n  color: #555;\n}\n#sidebar p strong {\n  color: #444;\n}\n#sidebar ul.menu,\n#sidebar ul.menu li {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n#sidebar ul.menu {\n  margin-top: 1em;\n  margin-bottom: 1em;\n}\n#sidebar ul.menu li {\n  display: inline;\n}\n#sidebar ul.menu li a {\n  background: url(/images/dotted-line.gif) repeat-x top;\n  display: block;\n  padding: 4px;\n  padding-top: 6px;\n  text-decoration: none;\n}\n#sidebar ul.menu li a:hover,\n#sidebar ul.menu li a:visited:hover {\n  background: #f2ead0 url(/images/dotted-line.gif) repeat-x top;\n}\n#sidebar ul.menu li.here a {\n  background: #e8e0c3 url(/images/dotted-line.gif) repeat-x top;\n  font-weight: bold;\n  color: #333;\n}\n#sidebar ul.menu li.here a:hover,\n#sidebar ul.menu li.here a:visited:hover {\n  background: #f2ead0 url(/images/dotted-line.gif) repeat-x top;\n}\n#sidebar ul.submenu li {\n  background: url(/images/dotted-line.gif) repeat-x top;\n  display: block;\n  text-decoration: none;\n  font-size: 90%;\n}\n\n#sidebar ul.submenu li a {\n    color: #B95E56 !IMPORTANT;\n}\n#sidebar table.book-list {\n  width: 100%;\n  background: url(/images/dotted-line.gif) repeat-x bottom;\n  padding-bottom: 1px;\n  margin-bottom: 1em;\n}\n#sidebar table.book-list .thumbnail {\n  width: 52px;\n}\n#sidebar .book-list .thumbnail img {\n  margin: 10px 6px;\n  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n  vertical-align: middle;\n}\n#sidebar table.book-list .title,\n#sidebar table.book-list .authors,\n#sidebar table.book-list .short {\n  display: block;\n}\n#sidebar table.book-list .authors,\n#sidebar table.book-list .short {\n  color: #898575;\n  font-size: 75%;\n  line-height: 110%;\n}\n#sidebar table.book-list td {\n  background: url(/images/dotted-line.gif) repeat-x top;\n  height: 60px;\n}\n#sidebar table.book-list td a {\n  text-decoration: none;\n  display: block;\n  padding: 2px;\n  padding-top: 4px;\n}\n#sidebar table.book-list .highlight td {\n  background: #f2ead0 url(/images/dotted-line.gif) repeat-x top;\n}\n#sidebar table.book-list .highlight td a {\n  color: #d65554;\n}\n#sidebar .quotes,\n#sidebar .quotes li {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n}\n#sidebar .quotes li {\n  color: #666;\n  background: url(/images/dotted-line.gif) repeat-x top;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  line-height: 110%;\n}\n#sidebar .quotes li div.quote p,\n#sidebar .quotes li .source,\n#sidebar .quotes li .title, \n#sidebar .quotes li .company {\n  display: block;\n  color: #898575;\n}\n\n#sidebar .quotes li div.quote p:before {\n    content: '\\201C';\n}\n\n#sidebar .quotes li div.quote p:after {\n    content: '\\201D';\n}\n\n\n#sidebar .quotes li div.quote p {\n  line-height: 130%;\n}\n#sidebar .quotes li strong {\n  color: #696555;\n}\n#sidebar .quotes li .source {\n  color: #797565;\n  margin-top: 8px;\n  margin-left: 30%;\n}\n#sidebar .quotes li .title,\n#sidebar .quotes li .company {\n  font-size: 80%;\n  margin-left: 34%;\n}\n#sidebar .box {\n  background-color: #f6edd3;\n  margin-left: -8px;\n  margin-right: -8px;\n  padding: 4px;\n  padding-left: 15px;\n  padding-right: 15px;\n  margin-top: 2.25em;\n  margin-bottom: 1em;\n}\n\n#sidebar .box .inner-1 {\n  background: url(/images/sidebar-box-top-left.gif) no-repeat top left;\n}\n#sidebar .box .inner-2 {\n  background: url(/images/sidebar-box-top-right.gif) no-repeat top right;\n}\n#sidebar .box .inner-3 {\n  background: url(/images/sidebar-box-bottom-left.gif) no-repeat bottom left;\n}\n#sidebar .box .inner-4 {\n  background: url(/images/sidebar-box-bottom-right.gif) no-repeat bottom right;\n}\n#sidebar .box h3 {\n  font-size: 160%;\n  margin-top: 6px;\n}\n#sidebar table.profile-box {\n  width: auto;\n}\n#sidebar table.profile-box td {\n  border: 0;\n  padding: 12px;\n  padding-left: 0;\n  padding-right: 0;\n}\n#sidebar table.profile-box td.picture img {\n  background: white;\n  border: 1px solid #ccc;\n  padding: 2px;\n}\n#sidebar table.profile-box td.name {\n  padding-left: 15px;\n  font-size: 130%;\n}\n#sidebar table.profile-box td.name small {\n  color: #666;\n  font-weight: normal;\n  font-size: 70%;\n}\n#sidebar table.profile-box .short {\n  display: block;\n}\n\n#search input.textbox {\n  border-top: 1px solid #9c9c9c;\n  border-left: 1px solid #9c9c9c;\n  font-size: 100%;\n  padding-left: 2px;  \n  margin-right: 4px;\n  width: 216px;\n}\n#search button.go {\n  background: url(/images/go-button-sidebar.gif) no-repeat;\n  border: 0;\n  cursor: pointer;\n  position: absolute;\n  width: 34px;\n  height: 34px;\n  margin: 0;\n  margin-top: -5px;\n  padding: 0;\n}\n#search button.go span {\n  display: none;\n}\n#cart-tab {\n  background: url(/images/cart-tab-top.gif) repeat-x top #CB8A81;\n  position: absolute;\n  top: 96px;\n  right: 25px;\n  cursor: pointer;\n}\n#cart-tab .inner-1 {\n  background: url(/images/cart-tab-bottom-left.gif) no-repeat bottom left;\n}\n#cart-tab .inner-2 {\n  background: url(/images/cart-tab-bottom-right.gif) no-repeat bottom right;\n}\n#cart-tab .inner-3 {\n  background: url(/images/cart-tab-top-left.gif) no-repeat top left;\n}\n#cart-tab .inner-4 {\n  background: url(/images/cart-tab-top-right.gif) no-repeat top right;\n}\n#cart-tab a, \n#cart-tab a:visited, \n#cart-tab a:hover,\n#cart-tab a:visited:hover {\n  background: url(/images/cart-icon-cart-tab.gif) no-repeat 8px center;\n  color: white;\n  display: block;\n  padding-left: 32px;\n  padding-right: 12px;\n  padding-top: 6px;\n  padding-bottom: 8px;\n  cursor: pointer;\n}\n#sidebar #cart-tab .inner-1 {\n  background: url(/images/cart-tab-sidebar-bottom-left.gif) no-repeat bottom left;\n}\n#sidebar #cart-tab .inner-2 {\n  background: url(/images/cart-tab-sidebar-bottom-right.gif) no-repeat bottom right;\n}\n#sidebar #cart-tab .inner-3 {\n  background: url(/images/cart-tab-sidebar-top-left.gif) no-repeat top left;\n}\n#sidebar #cart-tab .inner-4 {\n  background: url(/images/cart-tab-sidebar-top-right.gif) no-repeat top right;\n}\n\n/* if the cart tab is followed immediately by the in-the-forums heading, leave a little extra room */\n\n#sidebar #cart-tab + #in-the-forums {\n  margin-top: 45px;\n}\n\n\n#extras #search {\n  position: absolute;\n  top: 86px;\n  right: 50px;\n  margin: 0;\n  padding: 0;\n  padding-top: 42px;\n}\n#extras #search h3 {\n  color: #333!important;\n  margin-top: 0;\n  margin-bottom: .25em;\n  padding-top: .5em;\n}\n#extras #search input.textbox {\n  width: 190px;\n}\n#footer-wrapper {\n  background: url(/images/footer-background.png) repeat-x top;\n  float: left;\n  width: 100%;\n}\n#footer {\n  text-shadow: 0 0 0 #000;\n  color: white;\n  padding-top: 1px;\n  padding-bottom: 8px;\n}\n#footer a {\n  color: white;\n}\n#footer a:visited {\n  color: #ddd;\n}\n#footer a:hover,\n#footer a:visited:hover {\n  color: white;\n}\n#site-links {\n  font-family: \"Bookman Old Style\", \"Book Antiqua\", Georgia, \"Times New Roman\", Times, serif;\n  font-size: 120%;\n}\n#site-links .separator {\n  margin-left: .25em;\n  margin-right: .25em;\n}\n#copyright {\n  color: #ccc;\n  font-size: 90%;\n}\n\n\n/* Single Column Layout */\n#single-column-layout #sidebar-wrapper,\n#centered-layout #sidebar-wrapper,\n#slate-single-column-layout #sidebar-wrapper,\n#slate-centered-layout #sidebar-wrapper {\n  display: none;\n}\n\n\n/* Two-Column Layout */\n#two-column-layout #main {\n  background: white url(/images/sidebar-background.png) repeat-y right;\n}\n#two-column-layout #content-wrapper {\n  float: left;\n  width: 100%;\n  margin-right: -600px;\n}\n#two-column-layout #content {\n  margin-right: 300px;\n}\n#two-column-layout #sidebar-wrapper {\n  border-top: 1px solid #847f6d;\n  background: url(/images/sidebar-background-top.png) no-repeat left top;\n  float: right;\n  width: 300px;\n}\n\n\n/* Centered Layout */\n#centered-layout #head-wrapper {\n  text-align: center;\n}\n\n\n/* Slate Layout */\n#slate-layout #head-wrapper,\n#slate-centered-layout #head-wrapper,\n#slate-layout #head,\n#slate-centered-layout head {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  background: none;\n}\n#slate-layout #head h1,\n#slate-centered-layout #head h1 {\n  margin-top: .25em;\n  margin-bottom: 1em;\n}\n#slate-layout #sidebar-wrapper,\n#slate-centered-layout #sidebar-wrapper {\n  display: none;\n}\n#slate-layout #content-wrapper,\n#slate-centered-layout #content-wrapper  {\n  border-top: 1px solid #9C978A;\n  background: #eaddb8 url(/images/head-background.png) repeat-x 0 0;\n}\n#slate-layout .buttons,\n#slate-centered-layout .buttons {\n  border-top-color: #b3aa90;\n}\n#slate-layout #content,\n#slate-centered-layout #content {\n  padding: 50px;\n  padding-top: 25px;\n}\n#slate-layout #content ul li,\n#slate-centered-layout #content ul li {\n  list-style-image: url(/images/bullet-on-tan.gif);\n}\n#slate-layout #content h3,\n#slate-single-column-layout #content h3,\n#slate-centered-layout #content h3 {\n  background-image: url(/images/h3-underline-on-tan.gif);\n}\n#slate-layout #content #title-view h3,\n#slate-single-column-layout #content #title-view h3,\n#slate-centered-layout #content #title-view h3 {\n  margin-right: 15px;\n}\n\n/* Slate Single Column Layout */\n#slate-single-column-layout #head-wrapper {\n  margin: 0;\n}\n#slate-single-column-layout #head h1,\n#slate-single-column-layout #head h2 {\n  padding-right: 250px;\n}\n#slate-single-column-layout #content {\n  background-color: #eaddb8;\n  padding: 0;\n}\n#slate-single-column-layout #content .panel {\n  background: #f5ebcb url(/images/titles-top-background.gif) repeat-x top center;\n  padding: 10px;\n  padding-left: 25px;\n  padding-right: 25px;\n  padding-right: 0;\n  width: auto;\n}\n#slate-single-column-layout #extras #search {\n  width: 204px;\n}\n\n\n/* Slate Centered Layout */\n#slate-centered-layout #content-wrapper {\n  text-align: center;\n}\n#slate-centered-layout #content {\n  margin-left: auto;\n  margin-right: auto;\n  text-align: left;\n}\n\n/* Home Page */\n.home-page #head {\n margin-left: auto;\n margin-right: auto;\n}\n\n.home-page #head {\n  padding-bottom: 30px;  \n}\n\n\n/**********\n  * Single book with a block of text pto the right \n  *********/\n  \n#home-single-book {\n  width: 540px;\n  padding: 0px;\n  margin-top: 50px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n#home-single-book .cover-image {\n  float: left;\n  width: 200px;\n  padding-right: 40px;\n  margin: 0px;\n}\n\n#home-single-book .cover-image img {\n  box-shadow:         2px 2px 4px rgba(0, 0, 0, 0.2);\n  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n  -moz-box-shadow:    2px 2px 4px rgba(0, 0, 0, 0.2);\n}\n                   \n#home-single-book .copy {\n  width: 300px;\n  margin: 0px;\n  float: right;\n  line-height: 150%;\n}    \n\n#home-single-book .copy h1 {\n  margin-top: 0px;\n  margin-bottom: .4em;\n  line-height: 100%;\n}\n\n#home-single-book .copy .more {\n  margin-top: 1em;\n  margin-bottom: 1em;\n}\n\n\n\n/*******\n * Multiple book images, each with a link, and a block of text below\n ******/\n \n#home-multi-book {\n  margin-top: 50px;\n  margin-bottom: 0px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n#home-multi-book .multiple-images {\n}\n\n\n#home-multi-book .cover-image { \n  display: inline-block;\n  padding-left: 3%;\n  padding-right: 3%;\n  margin: 0px;\n}\n\n#head .cover-image img {\n  box-shadow:         2px 2px 4px rgba(0, 0, 0, 0.2);\n  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n  -moz-box-shadow:    2px 2px 4px rgba(0, 0, 0, 0.2);\n}\n                   \n#home-multi-book .copy {\n  width: 50%;\n  margin: 0px;\n  font-size: 120%;\n  padding-top: 1em;\n  line-height: 150%;\n  margin-left: auto;\n  margin-right: auto;\n}    \n\n#home-multi-book .copy h1 {\n  margin-top: 0px;\n  margin-bottom: .4em;\n}\n\n#home-multi-book .copy .more {\n  margin-top: 0.5em;\n}\n           \n\n\n\n/*******\n * image on the left, copy on the right\n ******/\n \n#home-image-and-text {\n  margin-top: 50px;\n  margin-bottom: 0px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n\n#home-image-and-text .general-image { \n  display: inline-block;\n  padding-left: 3%;\n  padding-right: 3%;\n  margin: 0px;\n}\n\n#home-image-and-text .general-image img { \n  background: none;\n  border: none;\n}\n\n                   \n#home-image-and-text .copy {\n  display: inline-block;\n  width: 50%;\n  margin: 0px;\n  font-size: 120%;\n  padding-top: 1em;\n  line-height: 150%;\n  margin-left: auto;\n  margin-right: auto;\n}    \n\n#home-image-and-text.copy h1 {\n  margin-top: 0px;\n  margin-bottom: .4em;\n}\n\n#home-image-and-text .copy .more {\n  margin-top: 0.5em;\n}\n\n\n\n/*******\n * centered image\n ******/\n \n#home-image {\n  margin-top: 50px;\n  margin-bottom: 0px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n\n#home-image img { \n  background: none;\n  border: none;\n}\n\n\n\n\n\n.home-page #head ul.no-bullet li {   \n  list-style: none;\n  list-style-image: none;\n}    \n\n.home-page #head ul.no-bullet li img {   \n    background: none;\n    border: 0;\n}    \n  \n.home-page #push {\n  background: #eaddb8 url(/images/push-background.png) repeat-x 0 0;\n  margin-top: -22px;\n  margin-left: -25px;\n  margin-bottom: 22px;\n  margin-right: -25px;\n  min-width: 62em;\n  padding: 25px;\n  text-align: center;\n}\n.home-page #push a {\n  color: #b95e56;\n}\n.home-page #push a:visited {\n  color: #9f79ac;\n}\n.home-page #push a:hover,\n.home-page #push a:visited:hover {\n  color: #d65554;\n}\n.home-page #push table {\n  margin-left: auto;\n  margin-right: auto;\n    text-align: left;\n}\n.home-page #push table .thumbnail {\n  padding-right: 15px;\n  width: 85px;\n}\n.home-page #push table .thumbnail img {\n  background: url(/images/books/75x90/book-shadow-head.gif) no-repeat center center;\n  border: 0;\n  padding: 5px;\n}\n.home-page #push table .description {\n  padding-right: 20px;\n  min-width: 11em;\n}\n.home-page #push table .description h4 {\n  background: none;\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  font-size: 100%;\n  margin: 0;\n  margin-bottom: .25em;\n  line-height: 1.1em;\n}\n.home-page #push table .description p {\n  font-size: 80%;\n  margin: 0;\n}\n.home-page #front-page-news {\n  background: #141;\n  color: #ffa;     \n  margin-top: -22px;\n  margin-left: -25px;\n  margin-right: -25px;\n  margin-bottom: 22px;\n  padding-top: 8px;\n  padding-left: 25px;\n  padding-bottom: 8px;\n  padding-right: 25px;\n  text-align: center;\n  position: relative;\n}           \n.home-page #front-page-news .date {  \n    color: #ee9;  \n    font-size: 80%;\n}\n\n.home-page #front-page-news a {  \n    color: #ffa;\n    font-weight: bold;\n}\n\n\n.home-page #search-bar {\n  background: #a69f8c url(/images/bar-background.png) repeat-x 0 0;\n  margin-top: -22px;\n  margin-left: -25px;\n  margin-right: -25px;\n  margin-bottom: 22px;\n  padding-top: 8px;\n  padding-left: 25px;\n  padding-bottom: 8px;\n  padding-right: 25px;\n  text-align: center;\n  position: relative;\n}\n.home-page #search-bar table {\n  margin-left: auto;\n  margin-right: auto;\n  text-align: left;\n}\n.home-page #search-bar table td {\n  vertical-align: top;\n}\n.home-page #search-bar h3 {\n  font-size: 180%;\n  background: none;\n  margin: 0;\n  margin-top: 9px;\n  margin-right: 6px;\n  padding: 0;\n}\n.home-page #search-bar .info {\n  color: white;\n  font-size: 85%;\n}\n.home-page #search-bar input.textbox {\n  border: 2px solid white;\n  font-size: 120%;\n  width: 16em;\n  margin-top: 12px;\n  margin-bottom: 3px;\n}\n.home-page #search-bar button.go {\n  background: url(/images/go-button-bar.gif) no-repeat center center;\n  width: 39px;\n  height: 39px;\n  margin: 0;\n  margin-top: 5px;\n  padding: 0;\n  position: static;\n  cursor: pointer;\n}\n.home-page #search-bar button.go span {\n  display: none;\n}\n.home-page #three-column {\n  margin-top: -22px;\n  margin-left: -25px;\n  margin-right: -25px;\n  margin-bottom: -22px;\n  position: relative;\n  width: 100%;\n  display: inline-block;\n}\n.home-page #three-column .column-wrapper {\n  float: left;\n  width: 33%;\n  padding-bottom: 35px;\n}\n.home-page #three-column .column {\n  padding-left: 25px;\n  padding-right: 25px;\n  position: relative;\n}\n.home-page #three-column h3 {\n  background: none;\n  font-size: 180%;\n}\n.home-page #three-column ul,\n.home-page #three-column li {\n  list-style: none;\n  list-style-image: none;\n  margin-left: 0;\n  padding-left: 0;\n}\n.home-page #three-column li {\n  background: url(/images/bullet.gif) no-repeat 2px .4em;\n  padding-left: 18px;\n}\n.home-page #three-column .more {\n  margin-bottom: 0;\n}\n.home-page #three-column dl.events {\n  padding-left: 48px;\n}\n.home-page #three-column dl.events dt {\n  position: relative;\n  font-size: 100%;\n  font-weight: normal;\n  margin-bottom: 0;\n  margin-top: .5em;\n}\n.home-page #three-column dl.events dd li {\n  font-size: 90%;\n}\n.home-page #three-column dl.events dt img {\n  background: none;\n  border: 0;\n  padding: 0;\n  position: absolute;\n  top: -3px;\n  left: -48px;\n}\n.home-page #three-column dl.events dd {\n  font-size: 90%;\n  margin-left: 0;\n  margin-top: .25em;\n  margin-bottom: 1em;\n}\n.home-page #three-column dl.events dd ul {\n  margin: 0;\n}\n.home-page #three-column dl.events dd ul li {\n  background: none;\n  padding-left: 0;\n  margin-top: .15em;\n  margin-bottom: .15em;\n}\n.home-page #three-column #pragprogs {\n  position: absolute;\n  width: 50px;\n  line-height: 32px;\n  top: 3.5em;\n}\n.home-page #three-column #pragprogs img {\n  padding: 0;\n}\n.home-page #three-column ul.faqs {\n  padding-left: 65px;\n  min-height: 132px;\n}\n\n\n/* Book Page */\n.book-page #content {\n  position: relative;\n}\n.book-page #head {\n  padding-right: 240px;\n}\n.book-page #content #intro {\n  padding-right: 225px;\n}\n\n/* Book List Page */\n.book-list-page #content {\n  padding-bottom: 0px;\n  margin-bottom: -25px;\n}\n\n/* Cart Page */\n.cart-page #foot {\n  text-align: right;\n}\n\n\n/* Login Page */\n.login-page #content table.two-options {\n  margin-top: 25px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.login-page #content table.two-options h1 {\n  font-size: 250%;\n  margin-top: .25em;\n}\n.login-page #content table.two-options td {\n  width: 26em;\n  vertical-align: top;\n}\n.login-page #content table.two-options td.or {\n  background: url(/images/vertical-divider.gif) repeat-y center center;\n  color: #333;\n  font-family: Garamond, \"Times New Roman\", Times, serif;\n  font-size: 260%;\n  width: 3em;\n  text-align: center;\n  vertical-align: middle;\n}\n.login-page #content table.two-options td.or em {\n  display: block;\n  background-color: #eaddb8;\n  padding-bottom: .15em;\n}\n.login-page #content table.two-options input.wide {\n  width: 100%;\n}\n.login-page #content table.two-options #password {\n  width: 10em;\n}\n.login-page #content button.login {\n  background: url(/images/large-login-button.gif) no-repeat 0 0;\n  border: 0;\n  cursor: pointer;\n  margin: 0;\n  padding: 0;\n  width: 147px;\n  height: 34px;\n  vertical-align: middle;\n}\n.login-page #content button.login span {\n  display: none;\n}\n.login-page #content button.sign-up-now {\n  background: url(/images/sign-up-now-button.gif) no-repeat 0 0;\n  border: 0;\n  cursor: pointer;\n  margin: 0;\n  padding: 0;\n  width: 147px;\n  height: 34px;\n  vertical-align: middle;\n}\n.login-page #content button.sign-up-now span {\n  display: none;\n}\n\n.login-page #content div.openid-login img {   \n    vertical-align: top;\n}\n\n.login-page #content div.openid-login img {   \n    padding: 0px; \n    border: none;\n}\n\n.login-page #content div.openid-login div.openid-text {   \n    display: inline-block;  \n    width: 85%; \n    padding-left: 0.5em;\n}\n       \n#__idselector_button    {\n    display: none;\n}\n\n.login-page #content div.openid-login div.openid-text span.hint {   \n    display: inline-block;\n}\n             \ninput#identity_url, input#openid_identifier {   \n    background-image: url(https://pragprog.com/images/openid-14x14.png);\n    background-repeat: no-repeat; \n    background-position: 2% center; \n    padding-left: 30px;\n}\n\n/* Code blocks */\n\n#content pre, #content code {\n  color: #222;\n}\n\n#content pre, #content code {\n  font-size: 1.2em;\n}\n\n#content pre {\n  font-size: 1.1em;\n  margin-left: 18px;\n}\n\n/* CMS images */\n\n#cms-content .cms-image {\n  border: 0;\n}      \n\n#cms-content .cms-image-right {\n  border: 0;\n  float: right;\n  padding-left: 2em;\n}\n\n#cms-content .cms-centered-image {\n  margin-right: auto;\n  margin-left: auto;\n  display: block;\n  border: 0 !important;\n}\n\n#cms-content .cms-image .caption {\n  margin-top: 0;\n  padding-top: 0;\n  font-size: 0.9em;\n  font-style: italic;\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n}\n      \n.cms-legal {\n  font-size: smaller;\n  color: #999;\t\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n}\n\n#cms-content dl.steppable dt {\n  color: #375;\n  font-weight: bold;\n  font-size: 120%;\n  margin-top: 1.2em;\n  margin-bottom: 0.2em;\n}\n\n#cms-content dl.steppable dd {\n  margin-top: 0em;\n  margin-bottom: 0em;\n}\n\n#cms-content dl.steppable dd a.lightview {\n  font-size: 75%;\n  padding-left: 0.5em;\n  padding-right: 0.5em;\n  background: #bec;\n}\n\n.lv_DataText {\n  margin-top: 1.5em !IMPORTANT;\n  margin-bottom: 2.5em !IMPORTANT;\n  background: #dddddd;\n  border-top: 2px solid #883333;\n  border-bottom: 2px solid #883333;\n}\n\n.lv_DataText .lv_Title {\n  padding-top: .3em !IMPORTANT;\n  padding-right: 0.5em;\n  padding-bottom: 0.2em;\n  padding-left: 0.5em;\n  font-size: 130%;\n  color: #227733;\n  background: transparent !IMPORTANT;\n\n}\n\n.lv_DataText .lv_Caption {\n  padding-top: .3em;\n  padding-right: 0.5em;\n  padding-bottom: 0.2em;\n  padding-left: 0.5em;\n  font-size: 110%;\n  padding-bottom: 0.2em;\n  color: #666666;\n  background: #dddddd !IMPORTANT;\n}\n\n\n/* Author images on cms pages */\n\n.author-images {\n  padding-bottom: 2em;\n}\n\n.user-detail {\n    float: left;\n  font-size: 75%;\n  padding-right: 2em;\n  text-align: center;\n  margin-top: 2em;\n  width: 120px;\n  height: 150px;\n}\n\n.user-detail img {\n    border-top: none !important;\n    border-left: none !important;\n    border-right: none !important;\n    padding: 0px !important;\n}\n\n.user-detail .name {\n  margin: 0px;\n  padding: 0px;\n  font-weight: bold;\n}\n\n.user-detail ul.sites {\n  list-style: none;\n  list-style-image: none;\n  margin: 0;\n  padding: 0;\n  text-align: center;\n}\n\n.user-detail a {\n    color: #777;\n}\n\n.user-detail ul li {\n  display: inline;\n  padding: 0px;\n  margin-left: 5px;\n  margin-right: 5px;\n}\n\n/* Article list */\n\ndiv.pubart {\n  margin-top: 1em;  \n}\n\ndiv.pubart p {\n  margin: 0pt;\n  padding: 0pt;\n}\n\ndiv.pubart .title {\n  font-weight: bold;  \n  font-size: 120%;\n}\n\ndiv.pubart .source {\n  margin-left: 2em;\n}\n\n/* Press release page */\n\n.press-release-header {\n  background: url(\"/images/press_release_plus_signs.png\")  repeat-x 0 center;\n  text-align: center;    \n}\n\n.press-release-header span {\n  font-family: Lucidatypewriter, Andale Mono, Courier New, monospace;\n  font-size:   140%;\n  font-weight: bold;      \n  background:  white;\n  padding-left: 1em;\n  padding-right: 1em;\n}\n\n.press-release-bib-block .book-image {\n  float: right; \n  margin-left: 2em;\n}\n\n.press-release-bib-block p.title {\n    font-weight: bold;\n  font-size: 110%;\n  padding: 0pt;\n  margin: 0pt;\n}\n\n.press-release-bib-block p.subtitle {\n    font-weight: bold;\n  font-size: 90%;\n  padding: 0pt;\n  margin: 0pt;\n}\n\n.press-release-bib-block p.author {\n  font-size: 85%;\n  padding-top: 0pt;\n  margin-top: 0pt;\n  margin-bottom: 0.3em;\n}\n\n.press-release-bib-block .bibinfo {\n  font-size: 80%;\n  margin-top: 0pt;\n}\n\n\n/* Praise in a press release */\n\n.praise {\n    font-style: italic;\n    font-size: 90%;\n    margin-left: 4em;\n    margin-right: 4em;\n}\n\n.praise .said-by {\n    text-align: right;\n    margin-top: 0px;\n    padding: 0px;\n    font-style: normal;\n}\n\n/* Stripes in pub_schedule */\n\n#pub-schedule {\n    color: black;\n    font-size: 100%;\n}\n\n#pub-schedule .stripe1 {\n    background: #ffd;\n}\n\n#pub-schedule .stripe2 {\n    background: #fdf;\n}\n\n#pub-schedule a, #pub-schedule h3 {\n    color: white;\n}\n\n\n.user-profile {\n  padding-top: 2em;\n}\n\n.user-profile  td.picture {\n  padding: 2px;\n}\n\n.user-profile tr td.profile-name {\n  padding-left: 3em;  \n}\n\n.user-profile tr td.profile-name h1 {\n  margin-top: 0px !important;\n  margin-bottom: 0em !important;\n  padding-bottom: 0px !important;\n}\n\n.system-status {\n    font-weight: bold;\n    font-size: 110%;\n    color: red;\n}\n\n#thank-you-span {\n   color: #888;\n   font-size: small;\n}\n\n#thank-you-span img {\n    vertical-align: middle;\n    border: none;\n}\n\np.hint {\n  color: #666;\n  display: block;\n  font-size: 90%;\n  font-style: italic;\n}\n\n/* Podcasts */\n\ndiv.podcast-info {\n margin-left:   20%;\n}\n\ndiv.podcast-info div.feed-image {\n  position: absolute;\n  left: 2em\n}\n\ndiv.podcast-info div.feed-image img {\n  background: red;\n  border: none !important;\n}\n\ndiv.podcast-info div.feed-image span.listen {\n  color: #888;\n  font-size: 80%;\n  display: block;\n}\n\n.podcast-info div.stats {\n    clear: both;\n    margin-top: 1em;\n    padding-top: 0;\n    margin-top: 0;\n    font-size: 80%;\n    color:     #888;\n}\n\n.podcast-info div.stats span {\n  padding-left: 15px;\n  margin-right: 20px;\n  background: url(\"/images/bullet.gif\")  no-repeat 0 center;\n }\n  \n/* Background for a book cover */\n.medium-cover-shadow-on-white img {  \n  background-color: transparent;\n  border: 0;\n  background: url(/images/books/75x90/book-shadow.gif) no-repeat center center !IMPORTANT;\t\n  padding: 4px !IMPORTANT;\n}          \n       \n/* Cover listing */\ndiv.cover-list .thumbnail {\n  display: inline;\n  width:  100px;\n  height: 100px;      \n}       \n\n/* Movies */\n\n#content ul.movie-list li {\n  list-style-image: url(/images/movie_icon.gif);\n  vertical-align: middle;\n}\n\n#content div.checkbox-list {\n  font-size: 90%;\n  line-height: 2em;\n}\n\n#content div.checkbox-list .disabled {\n  color: #999;\n}\n\n/* Studios */\n\n#sidebar #studio img {\n  float: left; \n  margin-right: 10px;\n}\n\n/* TODO: remove me in 2008 */\ndiv.emphasize {\n  font-size: 100%;\n  font-weight: bold;\n  padding: 2em;\n  text-align: center;\n  border: thick ridge #ddccaa;  padding: 5px;\n}\n\n.hint strong {\n  color: black;\n}        \n\n.wiki-page h1, .wiki-page h2, .wiki-page h3, .wiki-page h4 {\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;  \n  color: #998877 !important;\n}\n\n.wiki-page h1 {\n  margin-top: 0.5em;\n  margin-bottom: 0em;\n  font-size: 220%; \n  background: url(/images/h3-underline.gif) repeat-x bottom; \n}\n\n.wiki-page h2 {\n  margin-top: 0.5em;\n  margin-bottom: -0.2em;  \n  font-size: 190%;  \n}\n\n.wiki-page h3 {\n  margin-top: 0.5em;\n  margin-bottom: 0em;  \n  font-size: 160%;  \n}    \n\n.wiki-page pre {\n  background: #f5f0e2;\n  padding-left: 2em;\n  padding-right: 2em;\n  padding-top: 0.8em;   \n  padding-bottom: 0.8em;   \n}\n\n.wiki-page pre {\n  font-size: 85% !important;\n}   \n\n#wiki_file_list {\n  border-bottom: 1px solid #a77;\n  background: #f5f0e2;\n  margin-top: -10 px;\n}\n\n#wiki_file_list fieldset {\n  padding: 0px;\n  margin-bottom: 0px;\n}\n\n#wiki_file_list fieldset legend {\n  padding-bottom: 0.5em;\n}\n\n#wiki_file_list li img {\n  border: none;\n  padding: 0px;\n  background: inherit;\n  margin-left: 1em;\n}  \n\ndiv.translation-thank-you p.address {\n  white-space: pre;\n  margin-left: 2em;\n  background: #f0f0e0;\n  padding-top: 0.5em;\n  padding-bottom: 0.5em;\n  padding-left: 0.5em;\n}\n\ntable.rights td.smaller {\n  font-size: 90%;\n}\n\ntable.rights td.border-right {\n  border-right: 1px solid #ccc;\n}\n\n\ndiv#category-view h4 {\n  background: none;\n  font-size: 140%;\n  padding-bottom: 1px;\n  margin-top: 0.2em;\n  margin-bottom: .1em;\n} \n\n\n \n\ndiv#category-view h4 a {\n  text-decoration: none;\n}\n\ndiv#category-view h4 span.small {\n  font-size: 75%;\n  padding-left: 0.7em;\n}\n\n\ndiv#category-view tr {\n  vertical-align: top;\n}\n\ndiv#category-view td.category-index-image {\n  padding-top: 3em;\n  width: 105px;\n  padding-left: 10px;\n  padding-right: 0px;\n}\n\ndiv#category-view td.category-index-description {\n  padding-top: 3em;\n}    \n\ndiv#category-view td.category-index-description p {\n  margin-top: 0.3em;\n  width: 35em;\n}\n          \n/* Progress box on title#show */\n\ndiv.progress  div.explanation{\n  margin-top: 0.2em;\n  margin-bottom: 0.5em;\n  margin-left: 20%;\n  margin-right: 20%;\n  padding: 0px;\n  color: #666;   \n  font-size: 9pt;\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif; \n}\n\ndiv.progress div#progress-chart { \n  position: relative;\n  top: 6px;\n  overflow-x: auto;\n  overflow-y: auto;\n  width: 700;\n}\n\ndiv.progress div#progress-chart svg{ \n  background: rgba(0,0,0,0.5);\n}\n \ndiv.progress div#progress-chart .prg-lab { \n  font-size: 30pt;\n}\n          \n#MB_frame {\n  background-color: #aaaaaa !IMPORTANT;\n}  \n\n/* Modal box containing release history */\n\ndiv#release-info-popup {\n  background: #eee; \n  padding: 1em;\n}\n\ndiv#release-info-popup h3 { \n  margin-top: 1.5em;\n  margin-bottom: 0em;\n  color:  #242;\n  font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif; \n}\n\n\n\n\n#dropbox_flash {\n  border-top: 3px solid #5abd7b;\n  border-bottom: 3px solid #5abd7b;\n  text-align: center;\n  background-color: #20a64c;\n  color: white;\n}  \n.dropbox-logo {\n  float: right;\n  border: none !IMPORTANT;\n  padding-top: 0px;\n}\n\n/* Pagination stuff for kaminari */\n\n.pagination {\n  margin: 1.5em 0;\n  text-align: center;\n}\n\n.pagination-container {\n    margin: 1.5em 0;\n    text-align: center;\n}\n\n.pagination-container .pagination {\n\tmargin: 0;\n}\n\n.pagination a {\n  padding: 2px 5px;\n  margin: 2px;\n  border: 1px solid #ccc;\n  border-radius: 7px;\n  text-decoration: none;\n}\n\n.pagination a:hover, \n.pagination a:active {\n  background: #68aCeA;\n  border: 1px solid #387cba;\n  border-radius: 7px;\n  color: #fff !important;\n}\n\n.pagination span.current {\n  padding: 2px 5px;\n  margin: 2px;\n  background: #387cba;\n  border: 1px solid #387cba;\n  border-radius: 7px;\n  color: #fff;\n  font-weight: bold;\n}\n\n.pagination span.disabled {\n  padding: 2px 5px;\n  margin: 2px;\n  border: 1px solid #eee;\n  color: #ddd;\n}\n\n.pagination-summary {\n\tfont-size: 70%;\n\tcolor: #888;\n\tmargin-top: 0.7em;\n}\n\n/* Watch me icon on title page */\n\n#content img.watch-me-icon {\n  width:  112px;\n  height: 76px;\n  border: none;\n  float: left;\n  margin-right: 2em;\n  margin-bottom: 0.2em;\n}\n"
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 14551
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 9
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 74,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.265-05:00",
+        "time": 58,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/sidebar-background.png",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 676,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/png",
+            "size": 338
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 338
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 58,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.265-05:00",
+        "time": 58,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/footer-background.png",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 675,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/png",
+            "size": 361
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 361
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 58,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 60,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/head-background.png",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 673,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/png",
+            "size": 339
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 339
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 60,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 60,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/head-background-bottom.png",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 680,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/png",
+            "size": 225
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 225
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 60,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 118,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/h3-underline.gif",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 670,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 81
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 81
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 57,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 118,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/add-to-cart-on-silver.gif",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 679,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 1154
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 1154
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 57,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 118,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/bullet.gif",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 664,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 110
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 110
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 58,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 60,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 121,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/sidebar-background-top.png",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 680,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/png",
+            "size": 331
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 331
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 60,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 121,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/dotted-line.gif",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 669,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 48
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 48
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 60,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 61,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 121,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/go-button-sidebar.gif",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 675,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 1586
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 1586
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 61,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 60,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 194,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/nav-underline.gif",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 671,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 758
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 758
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 118,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 76,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_58871",
+        "startedDateTime": "2012-04-18T19:05:56.266-05:00",
+        "time": 194,
+        "request": {
+          "method": "GET",
+          "url": "http://assets3.pragprog.com/images/logo-screen2.gif",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "_prag_production_session31",
+              "value": "BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Host",
+              "value": "assets3.pragprog.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/png,image/*;q=0.8,*/*;q=0.5"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://assets3.pragprog.com/stylesheets/high.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "_prag_production_session31=BAh7ByIQX2NzcmZfdG9rZW4iMUlGWWtUZjk2SENXemVTM2dQT1p1NHAySWZIUHZFN1R3c21ka0hKWFF5eXc9Ig9zZXNzaW9uX2lkIiVhN2I4MWNlZmM1N2E5YWFiNjY5M2NhMDcxYjlkZWM3Zg%3D%3D--dad5aeaaa89607986fd17cd16d5bacf3ceb05f88"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 670,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "Server",
+              "value": "nginx/1.0.10"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 19 Apr 2012 00:05:34 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 18 Apr 2012 22:28:42 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 17 Apr 2022 00:05:34 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=315360000"
+            }
+          ],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 8444
+          },
+          "redirectURL": "",
+          "headersSize": 232,
+          "bodySize": 8444
+        },
+        "cache": {
+          "afterRequest": {
+            "expires": "2022-04-17T00:05:34.000Z",
+            "lastAccess": "2012-04-19T00:05:56.000Z",
+            "eTag": "",
+            "hitCount": 4
+          }
+        },
+        "timings": {
+          "blocked": 118,
+          "dns": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 76,
+          "receive": 0
+        },
+        "serverIPAddress": "209.251.185.98",
+        "connection": "80"
+      }
+    ]
+  }
+}
