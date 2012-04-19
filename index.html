@@ -128,7 +128,8 @@
                 <div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap"
                      tabindex="-1">
                     <div style="display: block;" class="simplemodal-data" id="basic-cookie-content">
-                        <table border="1">
+                        <table>
+			  <thead>
                             <tr>
                                 <th colspan="2">{{cookieSource}} Cookies</th>
                             </tr>
@@ -136,10 +137,13 @@
                                 <th>name</th>
                                 <th>value</th>
                             </tr>
+			  </thead>
+			  <tbody>
                             <tr ng-repeat="cookie in selectedCookies">
                                 <td>{{cookie.name}}</td>
                                 <td>{{cookie.value}}</td>
                             </tr>
+			  </tbody>
                         </table>
                     </div>
                 </div>
@@ -156,7 +160,8 @@
                 <div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap"
                      tabindex="-1">
                     <div style="display: block;" class="simplemodal-data" id="basic-header-content">
-                        <table border="1">
+                        <table>
+			  <thead>
                             <tr>
                                 <th colspan="2">{{headerSource}} Headers</th>
                             </tr>
@@ -164,17 +169,17 @@
                                 <th>name</th>
                                 <th>value</th>
                             </tr>
+			  </thead>
+			  <tbody>
                             <tr ng-repeat="header in selectedHeaders | filter:noCookies">
                                 <td>{{header.name}}</td>
                                 <td>{{header.value}}</td>
                             </tr>
+			  </tbody>
                         </table>
-
                     </div>
                 </div>
-
             </div>
-
         </div>
 
         <div ng-show="showSelectedParams">
@@ -187,33 +192,29 @@
                 <div style="height: 100%; outline: 0px none; width: 100%; overflow: auto;" class="simplemodal-wrap"
                      tabindex="-1">
                     <div style="display: block;" class="simplemodal-data" id="basic-param-content">
-                        <table border="1">
+                        <table>
+			  <thead>
                             <tr>
                                 <th colspan="2">{{paramSource}} Parameters</th>
                             </tr>
-                            <tr>
+			    <tr>
                                 <th>name</th>
                                 <th>value</th>
                             </tr>
+			  </thead>
+			  <tbody>
                             <tr ng-repeat="param in selectedParams">
                                 <td>{{param.name}}</td>
                                 <td>{{param.value}}</td>
                             </tr>
+			  </tbody>
                         </table>
-
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </div>
 </div>
-
-
 </body>
-
-
 </html>
 
